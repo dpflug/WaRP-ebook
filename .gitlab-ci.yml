@@ -1,36 +1,18 @@
 image: asciidoctor/docker-asciidoctor
 
-html:
+ebooks:
   stage: build
   script:
     - asciidoctor WaRP.adoc
-  artifacts:
-    paths:
-      - WaRP.html
-
-pdf:
-  stage: build
-  script:
     - asciidoctor-pdf WaRP.adoc
-  artifacts:
-    paths:
-      - WaRP.pdf
-
-epub:
-  stage: build
-  script:
     - asciidoctor-epub3 WaRP.adoc
-  artifacts:
-    paths:
-      - WaRP.epub
-
-mobi:
-  stage: build
-  script:
     - asciidoctor-epub3 -a ebook-format=kf8 WaRP.adoc
   artifacts:
     paths:
+      - WaRP.html
+      - WaRP.pdf
       - WaRP.mobi
+      - WaRP.epub
 
 # I haven't seen a way to validate non-epub results
 test_epub:
