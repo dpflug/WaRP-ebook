@@ -39,14 +39,11 @@ pdf:
 
 ebook:
   stage: calibre
-  before_script:
-    - apt-get update -qq ; apt-get install -y -qq calibre
+  image: emmanuelrosa/kindlegen
   script:
-    - ebook-convert WaRP.html WaRP.epub
-    - ebook-convert WaRP.html WaRP.mobi
+    - kindlegen WaRP.html WaRP.mobi
   artifacts:
     paths:
-      - WaRP.epub
       - WaRP.mobi
   dependencies:
     - html
