@@ -1,9 +1,5 @@
 image: asciidoctor/docker-asciidoctor
 
-stages:
-  - build
-  - test
-
 html:
   stage: build
   script:
@@ -21,7 +17,7 @@ pdf:
       - WaRP.pdf
 
 epub:
-  stage: build1
+  stage: build
   script:
     - asciidoctor-epub3 WaRP.adoc
   artifacts:
