@@ -1,0 +1,1315 @@
+= WaRP System =
+
+:version-label: 1.0
+:revmark: (C) John A. Nephew. Published under license by Trident, Inc. d/b/a Atlas Games
+:icons: font
+:toc: left
+:toclevels: 2
+:doctype: book
+:sectanchors:
+:sectlinks:
+:summary: Authors Jonathan Tweet with Robin D. Laws; Editor Michelle Nephew. WaRP System Logo, Copyright 2012 Trident, Inc. d/b/a Atlas Games; Designer Michelle Nephew. Format conversion by David Pflug.
+
+
+== Legal Information
+
+Permission to copy, modify, and distribute the WaRP System Reference Document ("`SRD`") and WaRP System Logo ("`Logo`") is hereby granted through the use of the Open Game License Version 1.0a. The SRD and Logo are Open Game Content as described in Section 1(d) of the License. The most recent versions of the SRD and Logo may be downloaded at www.atlas-games.com/warp OPEN GAME LICENSE Version 1.0a The following text is the property of Wizards of the Coast, Inc. and is Copyright 2000 Wizards of the Coast, Inc ("`Wizards`"). All Rights Reserved.
+
+1. Definitions: (a)"`Contributors`" means the copyright and/or trademark owners who have contributed Open Game Content; (b)"`Derivative Material`" means copyrighted material including derivative works and translations (including into other computer languages), potation, modification, correction, addition, extension, upgrade, improvement, compilation, abridgment or other form in which an existing work may be recast, transformed or adapted; (c) "`Distribute`" means to reproduce, license, rent, lease, sell, broadcast, publicly display, transmit or otherwise distribute; (d)"`Open Game Content`" means the game mechanic and includes the methods, procedures, processes and routines to the extent such content does not embody the Product Identity and is an enhancement over the prior art and any additional content clearly identified as Open Game Content by the Contributor, and means any work covered by this License, including translations and derivative works under copyright law, but specifically excludes Product Identity. (e) "`Product Identity`" means product and product line names, logos and identifying marks including trade dress; artifacts; creatures characters; stories, storylines, plots, thematic elements, dialogue, incidents, language, artwork, symbols, designs, depictions, likenesses, formats, poses, concepts, themes and graphic, photographic and other visual or audio representations; names and descriptions of characters, spells, enchantments, personalities, teams, personas, likenesses and special abilities; places, locations, environments, creatures, equipment, magical or supernatural abilities or effects, logos, symbols, or graphic designs; and any other trademark or registered trademark clearly identified as Product identity by the owner of the Product Identity, and which specifically excludes the Open Game Content; (f) "`Trademark`" means the logos, names, mark, sign, motto, designs that are used by a Contributor to identify itself or its products or the associated products contributed to the Open Game License by the Contributor (g) "`Use`", "`Used`" or "`Using`" means to use, Distribute, copy, edit, format, modify, translate and otherwise create Derivative Material of Open Game Content. (h) "`You`" or "`Your`" means the licensee in terms of this agreement.
+
+2. The License: This License applies to any Open Game Content that contains a notice indicating that the Open Game Content may only be Used under and in terms of this License. You must affix such a notice to any Open Game Content that you Use. No terms may be added to or subtracted from this License except as described by the License itself. No other terms or conditions may be applied to any Open Game Content distributed using this License.
+
+3. Offer and Acceptance: By Using the Open Game Content You indicate Your acceptance of the terms of this License.
+
+4. Grant and Consideration: In consideration for agreeing to use this License, the Contributors grant You a perpetual, worldwide, royalty-free, non-exclusive license with the exact terms of this License to Use, the Open Game Content.
+
+5. Representation of Authority to Contribute: If You are contributing original material as Open Game Content, You represent that Your Contributions are Your original creation and/or You have sufficient rights to grant the rights conveyed by this License.
+
+6. Notice of License Copyright: You must update the COPYRIGHT NOTICE portion of this License to include the exact text of the COPYRIGHT NOTICE of any Open Game Content You are copying, modifying or distributing, and You must add the title, the copyright date, and the copyright holder's name to the COPYRIGHT NOTICE of any original Open Game Content you Distribute.
+
+7. Use of Product Identity: You agree not to Use any Product Identity, including as an indication as to compatibility, except as expressly licensed in another, independent Agreement with the owner of each element of that Product Identity. You agree not to indicate compatibility or co-adaptability with any Trademark or Registered Trademark in conjunction with a work containing Open Game Content except as expressly licensed in another, independent Agreement with the owner of such Trademark or Registered Trademark. The use of any Product Identity in Open Game Content does not constitute a challenge to the ownership of that Product Identity. The owner of any Product Identity used in Open Game Content shall retain all rights, title and interest in and to that Product Identity.
+
+8. Identification: If you distribute Open Game Content You must clearly indicate which portions of the work that you are distributing are Open Game Content.
+
+9. Updating the License: Wizards or its designated Agents may publish updated versions of this License. You may use any authorized version of this License to copy, modify and distribute any Open Game Content originally distributed under any version of this License.
+
+10. Copy of this License: You MUST include a copy of this License with every copy of the Open Game Content You Distribute.
+
+11. Use of Contributor Credits: You may not market or advertise the Open Game Content using the name of any Contributor unless You have written permission from the Contributor to do so.
+
+12. Inability to Comply: If it is impossible for You to comply with any of the terms of this License with respect to some or all of the Open Game Content due to statute, judicial order, or governmental regulation then You may not Use any Open Game Material so affected.
+
+13. Termination: This License will terminate automatically if You fail to comply with all terms herein and fail to cure such breach within 30 days of becoming aware of the breach. All sublicenses shall survive the termination of this License.
+
+14. Reformation: If any provision of this License is held to be unenforceable, such provision shall be reformed only to the extent necessary to make it enforceable.
+
+15. COPYRIGHT NOTICE
+Open Game License v 1.0a Copyright 2000, Wizards of the Coast, Inc.
+WaRP System Reference Document, Copyright 2012 John A. Nephew. Published under license by Trident, Inc. d/b/a Atlas Games; Authors Jonathan Tweet with Robin D. Laws; Editor Michelle Nephew.
+WaRP System Logo, Copyright 2012 Trident, Inc. d/b/a Atlas Games; Designer Michelle Nephew.
+END OF LICENSE
+
+
+== Glossary
+
+[horizontal]
+Bonus Die:: An extra die rolled with the normal dice for an attempted action when the character has some advantage. Drop out the lowest die before tallying the total for the roll.
+
+Experience Pool:: The number of dice that a character can use as bonus dice each game. They double as a measure of experience and can be "`spent`" to improve traits or develop new traits.
+
+Fringe Powers:: Powers not readily recognized as possible by the mundane world, including abilities that could be classified as psychic or magical.
+
+Game Moderator (GM):: the person who coordinates the series (i.e. "`gamemaster`").
+
+GMC:: Game Moderator Character (i.e. NPC, or non-player-character), a character run by the game moderator.
+
+Hit Points:: A measure of a character's ability to take damage and punishment. If reduced to 0 hit points, you're down and out of the fight. A character deep in the negatives is either dead or will die without medical care.
+
+Round:: In combat, or other intense encounters, a unit of time in which a character can generally take one action. Represents about 3 seconds of time in the game world.
+
+Penalty Die:: An extra die rolled with the normal dice when the character has some disadvantage. Drop out the highest die before totalling the roll.
+
+PC:: Player character, a character run by one of the players.
+
+Psychic Pool:: Represents how often a character can use psychic or fringe powers.
+
+Series:: a string of related game sessions, a "`campaign.`"
+
+Trait:: A feature of a character, representing a skill, personal characteristic, fringe power, talent, or aspect of one's background. Traits are usually good, but some (called "`flaws`") are bad.
+
+
+== Rules Overview
+
+
+=== Character Checklist
+
+.Your character includes:
+
+* Concept
+
+* Traits & Signs footnote:[One central trait and two side traits (one of these is your superior trait]; one flaw; a sign for each trait (including the flaw).
+
+* Hit Points
+
+* Experience Pool footnote:[Your experience pool starts as one die.]
+
+* Motivation
+
+* Secret
+
+* Important Person
+
+* Name, Background, Equipment, Finances, etc.
+
+* One central trait and two side traits (one of these is your superior trait); one flaw; a sign for each trait (including the flaw).
+
+* Your experience pool starts as one die.
+
+
+=== Mechanics
+
+When you use a trait, you roll a number of dice equal to its score (usually three dice, or four dice for your superior trait).
+
+If you get a *bonus die* (by having some advantage), you roll an extra die along with your normal dice and then drop the lowest die out of the bunch. If you have to roll a *penalty die* (from having some disadvantage), roll an extra die along with your normal ones, but drop out the highest one.
+
+You compare your roll vs. that made by the GM, usually representing a GMC's traits. You succeed if you beat the GM's roll or the *difficulty factor* she assigns.
+
+.Sample Difficulty Factors
+[%autowidth, cols="3", float="right"]
+|====
+| Task | Difficulty Factor | Dice to Roll
+
+| Easy | 4 | 1
+
+| Moderate | 7 | 2
+
+| Hard | 11 | 3
+
+| Really Difficult | 14 | 4
+
+| Near Impossible | 18+ | 5 or 6
+|====
+
+
+=== Your Experience Pool
+
+You can use the die in your experience pool to improve one roll per game session. Once you use the experience die, you cannot use it again in that session. The dice from your experience pool act as a bonus dice. As you play, you can acquire more dice for your pool.
+
+
+== Creating a Character
+
+
+=== Concept
+
+First, get an idea of the character you will portray. Have a good idea of who you want to be before you start any details. An example concept might be, "`A psycho-killer commando who escaped from CIA brain-washing program when the programming failed.`"
+
+
+=== Traits
+
+Each character has four *traits*. One trait is the character's *central trait*, usually defining who that character is. Two traits are *side traits*, additional skills or characteristics. Of the above three traits, one is chosen as *superior*. The last trait is a *flaw* or disadvantage. Each of the four traits entails a *sign*, some visible or tangible aspect of that trait.
+
+
+==== Central Trait
+
+First, you have one central trait, essentially your identity — who you are, what you do. This trait can take into account a variety of aptitudes, skills, or characteristics. When you, as a player, describe your character, you are likely to use this trait as the central concept. For example, "`I'm a model,`" or "`I'm a former secret agent.`" If you want to be something weird, this trait must cover that identity.
+
+A central trait includes the name of the trait followed by a description, then in parentheses sign(s) that are associated with the trait. Numbers at the end of the description indicate the number of dice that would be assigned to that trait normally (the first, lower number) and how many dice would be assigned if it is the character's *superior trait* (the second, larger number; see later for an explanation of superior traits). If the scores listed are "`4/6,`" this represents higher than normal scores for "`*narrow*`" traits. See that optional rule later in this section.
+
+An example central trait might be:
+
+[horizontal]
+Military Background:: Includes fighting bare-handed and with a variety of weapons, first aid, keeping cool under fire, and possibly one specialty field, such as mechanics or demolitions. (Wears camo clothes, or battle scars) 3/4
+
+If you want to have an unusual character, perhaps the kind of thing that does not exist in the real world (like an alien), you must take that trait as your central trait. Give the trait a name and description, being sure to be clear to the GM what skills, abilities, and characteristics this trait covers. If you have a weird, unusual power, the GM may give you a "`psychic pool,`" which represents how many times per day you can use that power. This pool may contain 3 shots (uses per day), or you can roll a die to see how many shots it contains. (If you have several fringe powers, you can roll the die once for each and take the highest roll.) GM rules for fringe abilities are found later in this document.
+
+
+==== Unknown Attributes
+
+An interesting way to speed up character creation and bring some mystery to the process is to identify certain attributes as unknown to you and to the character. For example, you might be an escapee from an experimental mental illness treatment that has given you powers that you don't even know much about yet. In that case, tell your GM that you want one or more of your traits undefined at the start. Or your motivation might be to follow certain clues, the significance of which you do not yet fully understand. Your GM might well appreciate the freedom that this tactic gives her in manipulating your character into the plots that she will lay for you and your fellow players.
+
+
+==== Side Traits
+
+Once you have your central, identifying trait chosen, chose two *side traits*. They may or may not be related to your central trait. Unlike the central traits, these side traits are very specific, representing discrete characteristics or skills.
+
+Just because a trait is your "`side trait`" does not mean it is insignificant to your character. For example, a professor with the side trait of "`hack writing`" might be pursuing her writing career, and her attempts to gain inspiration for her fiction may be more important in play than her teaching career. Indeed, she may be better at writing than teaching.
+
+A side trait includes the name of the trait followed by a description, then in parentheses sign(s) that are associated with the trait. Numbers at the end of the description indicate the number of dice the character receives for a normal and *superior* version of that trait, respectively. If the scores listed are "`4/6,`" this represents higher than normal scores for "`*narrow*`" traits. See that optional rule later in this section.
+
+An example side trait might be:
+
+[horizontal]
+Tough:: Resist poisons, pain, and fatigue. (Big-boned) 3/4
+
+Any unusual type of power, usually called "`magical`" or "`psychic,`" is a fringe power. Most likely you have a "`psychic pool,`" representing the number of times per day you can use this power. You can have 3 shots in your pool, or roll a die to determine the number of shots. If you have several fringe powers, you can roll the die once for each and take the highest roll. Give yourself a side trait with the name and description of the power. The sign for a fringe power depends on the nature of the power, and its dice scores are usually 1/2. GM rules for fringe abilities are found later in this document.
+
+
+==== More About Traits
+
+The GM looks over your traits and may veto or edit any that she judges to be out of order. She'll probably allow traits like "`Exceptionally tough,`" but might disallow "`Completely impervious to all manner of attack, damage, threat to life, or heartache.`"
+
+Take care in naming your trait. Make each unique. If your character is to have a way with words, is she "`well-spoken,`" "`manipulative,`" or "`silver-tongued`"? While the distinctions among terms may be slight, they affect your perception of the character and can affect the character's abilities in special circumstances.
+
+
+==== Scores for Traits
+
+Now you have your three positive traits: one central trait and two side traits. Next, you must assign a score to each. The score represents how many dice you roll when using the trait. Two factors determine your score for a given trait: whether it is "`superior`", and whether it is the kind of trait that most people normally have. (See also the optional rule for "`narrow`" traits.)
+
+First, you choose one of your three traits to be *superior*. Choose the one you like the most or think is most important to your character.
+
+Most traits are better or worse versions of traits the average person has. For instance, a strong character is stronger than average, but even the average person has some strength. Some traits, however, are *unusual* or *technical*, and the average person has no skill (0 dice) in that trait. If this is the case, a character with this trait has fewer dice than normal, to represent the fact that he would normally have no dice at all in that trait. Medicine, channeling, and quantum physics are examples of technical or unusual traits.
+
+See the charts below for specifics. Below the label for the kind of trait are a few examples of traits that fall in that category. "`Superior`" indicates your score if this trait is your superior trait. "`Good`" indicates your score if you have chosen the trait, but not as your superior trait. "`Average`" means the score for someone who does not have that trait at all.
+
+If the trait is not related to a score, make sure you and the GM agree to what this trait means.
+
+.Standard Trait -- Stealth, strength, straight-facing
+[%autowidth, cols="2"]
+|===
+| Superior | 4 dice
+| Good | 3 dice
+| Average | 2 dice
+|===
+
+.Technical or Unusual Trait -- Doctor, fringe powers
+[%autowidth, cols="2"]
+|===
+| Superior | 2 dice
+| Good | 1 die
+| Average | 0 dice
+|===
+
+
+==== Optional Rule: Narrow Traits
+
+Some players may wish to invent PCs with traits that are important to characterization but are of marginal use in the dangerous game world. For example, a character may wish to be a painter. This trait is nowhere near as useful as "`good fighter,`" "`tough,`" and so forth, so the GM may award the PC with extra dice in that score, to compensate partially for the trait's marginal usefulness. Traits such as "`chess,`" "`folksinger,`" and "`telling ghost stories`" may be considered narrow. No fighting skill counts as "`narrow.`" For "`narrow`" traits, use the charts below to see how the scores work:
+
+.Narrow Trait -- Public speaking, cooking
+[%autowidth, cols="2"]
+|===
+| Superior | 6 dice
+| Good | 4 dice
+| Average | 2 dice
+|===
+
+.Narrow & Technical Trait -- Helicopter pilot, dentistry
+[%autowidth, cols="2"]
+|===
+| Superior | 4 dice
+| Good | 2 dice
+| Average | 0 dice
+|===
+
+
+==== Flaws
+
+Once you have determined your first three traits (the central trait and two side traits), decided which of those three is your superior trait, and assigned scores appropriately, it is time to choose a flaw. A flaw is any disadvantage that your character will have in play. It must be important enough that it actually comes into play and makes a difference. Ideally, your flaw should be something directly related to your central trait or side traits, or to your character concept, rather than just a tack-on disadvantage.
+
+Often a flaw causes one to roll penalty dice in relevant situations. Other flaws cause problems that the player simply must roleplay.
+
+A flaw includes the name of the trait followed by a description, then in parentheses sign(s) that are associated with the trait.
+
+An example flaw might be:
+
+[horizontal]
+Prone to Reckless Violence:: When frustrated, there is a one in six chance that the character will fly into a fit of uncontrollable rage. (Sullen demeanor)
+
+
+==== Signs
+
+For each trait, including your flaw, describe one *sign* related to it that others can notice. Use these signs when describing your character. That way you can tell other players, "`I'm a tall, slim man who walks with a confident gait and wears a strange gold medallion around his neck.`" Isn't that better than, "`I'm agile; I come from a wealthy British family; and I dabble in magic`"? Some signs are not always apparent. They might appear when you use the trait in question, or only occasionally.
+
+
+=== Hit Points
+
+Your "`hit points`" represent the amount of punishment, damage, and pain you can take and still keep going. The more hit points you have, the harder you are to take down.
+
+Hit points are determined by any trait you may have that is relevant to fighting, toughness, strength, mass, or other aspect of your character that indicates the ability to take damage. If this trait is ranked as 4 dice, your hit points are 28. If ranked as 3 dice, your hit points are 21. Lacking such a trait, your hit points are 14. (You do not have fewer than 14 hit points for having a trait like "`weak.`")
+
+You get 7 points per die, and that relationship makes it easy to roll your hit points randomly, if you want. Simply roll double the number of appropriate dice (e.g. 6 dice for a trait ranked as 3 dice), and your total is your hit points.
+
+If you have more than one trait that could affect your hit points, roll for each trait separately and take the highest roll for your total. For example, if you are a 4 die martial artist and also have 3 dice strength, you could roll eight dice and six dice, using whichever roll results in the higher figure.
+
+If you have two traits related to hit points, you can take one of them as "`average.`" Don't roll for it at all; just take the hit points listed above. Then roll for the other, using the result only if you actually roll over the average score for the first trait. The strong martial artist in the example above could take 28 points for his 4 dice of martial arts and then roll six dice for being strong, taking whichever result is higher. Or he could take 21 points for being strong and then roll eight dice for the martial arts, again taking the higher result. To be fair, you must decide whether you are rolling or taking the average hit points for any trait before you begin rolling for any others. The strong martial artist could not first roll the six dice for being strong and then decide whether to roll the eight dice for martial arts ability.
+
+Once you've determined your hit points, attach a descriptive word or phrase to them to represent what they mean for your character. For instance, a strong character might call his "`brawn,`" indicating that his resilience in the face of physical punishment comes from his welldeveloped musculature. Another character's hit points might be "`guts,`" relating to sheer internal toughness and resolve, rather than to any purely physical trait.
+
+Descriptions of hit points also give your character more personality. A character who can take a lot of punishment because he is determined is conceptually different from someone who keeps going because he is too big (or too stupid) to notice his wounds.
+
+The GM can also use your description of your hit points to bend the rules to fit an unusual situation. For instance, imagine a weapon that stimulates pain nerves on contact. A big guy's hit points might not be too effective against the attack, since increased size might just mean he has more pain nerve endings; but someone whose hit points come from being determined might be able to shrug off the pain and keep going. (In this example, the GM can either penalize the big guy to keep his extra hit points from protecting him, or give a bonus to the determined character to represent his superior resistance to pain.)
+
+
+=== Experience Pool
+
+As a beginning character, you have one die in your experience pool. This means that once per game session you can use this die as a bonus die on any roll you make, improving your chances for success. Once you use this die, you cannot use it again for the rest of the session.
+
+The experience die represents your experience, will, wits, and special circumstances. You must justify the use of the die in these terms. For example, to block a knife thrust you might say, "`This has got to be the third knife-fight I've been in this week, and I'm getting used to it.`" If the GM does not tell you what a roll is for, you cannot use an experience die to modify it because you cannot justify its use.
+
+As the series progresses and you become more experienced, the GM will award you more dice for your experience pool to represent the experience gained. That means you can improve more of your rolls each session, but you cannot use more than one die on a single roll. Once a die is used, you may not use it again for the rest of the game session.
+
+As you gain more dice in your pool, you can "`trade them in`" for improved traits. See the rules for experience later in this section
+
+
+==== Optional Rule: Multiple Experience Dice
+
+The GM may allow you to use more than one experience die, but only if you can give one good justification for each die that you intend to use. You only use a bonus die for each justification that the GM accepts, and the GM may refuse to use this optional rule altogether.
+
+
+==== Awarding Experience Pool Dice
+
+Awarding these dice is entirely up to the GM. Use them to pace the progression of play. If you want to slow things down, award few. Awarding few dice puts the emphasis on the real world accomplishments of the PCs. They become powerful mostly through figuring out who to trust, how to get things done, and making a reputation for themselves. If you want the series to move quickly, award plenty of dice. The more dice the PCs get, the better they will be able to handle deeper and more dangerous plots. When in doubt, award the dice.
+
+These are actions for which the GM can award dice to PCs:
+
+* *Doing things.* A full session of talking, lying, being lied to, fighting, sneaking, watching your back, following clues and so forth should be worth a die, unless the PC was generally incompetent.
+
+* *Succeeding at some major task,* such as solving a mystery, neutralizing an enemy, or gaining a hard-won prize.
+
+* *Getting severely torqued,* betrayed, tricked, and jerked around, but surviving to tell about it. "`Experience is what you get when you don't get what you want.`"
+
+* *Executing a brilliant maneuver.* If a PC dumbfounds you by thinking his way out of certain death or manipulating a situation the way a pianist manipulates a keyboard, another die for the pool is a concrete way to acknowledge the feat.
+
+* *Excellent role-playing.* A player who breathes life into a sheet of paper (the PC) adds depth and wonder to the series. Again, awarding a die acknowledges this proficiency.
+
+In general, one die should be awarded for each session of worthy play, plus dice for any exceptional accomplishments. A PC who struggles well, vanquishes a foe he's been after for three sessions running, and imbues his character with energetic personality might get three dice for that one session (one for a session's play, one for defeating his enemy, and one for good role-playing). At the rate of one or two dice per session, it will take a PC about three sessions to develop a new trait. If that's too slow or too fast for your style of play, be more or less generous awarding dice.
+
+
+=== Motivation
+
+Choose a motivation for your character. Why have you come here? What do you want out of life? What are you trying to accomplish? The character might not be fully aware of his own motivation. A good motivation inspires your character to action so the GM can use it to involve you in events. The GM might also use the motivation to bring your character into contact and cooperation with the other player-characters. Beware of motivations that will make your character hard to play.
+
+A sample motivation might be, "`To exact revenge on my former CIA handlers.`"
+
+If you pick an easy task, accomplishing it will leave your character without a goal, so be careful with a motivation like this one. Of course, your GM can see to it that this is no easy task.
+
+
+=== Secret
+
+Choose some secret, some hidden fact that few others, if any, know about you. Pick a dark secret, if you can, something you desperately want to keep hidden from others. Again, this secret can help you get involved in plots and intrigues.
+
+A sample secret might be, "`My psychosis is barely controlled by my medication.`"
+
+
+=== Important Person
+
+Choose one person who was important in your past, and decide how that person was important to you. It could be someone you know personally, or merely someone you admire, even a fictional character.
+
+A sample important person might be your father, who kicked you out of the house when you were sixteen so you could learn to fend for yourself.
+
+
+=== Background & Equipment
+
+Fill in all the details you want about your character's background. List the possessions the character has and have some idea of the financial resources he will have. Choose items and finances appropriate to the character concept.
+
+
+=== GM Approval
+
+The GM should look over every character before approving it for play. Don't allow any traits that would take control of the series out of your hands and place it in the hands of a single player. Veto or edit it.
+
+
+== Basic Mechanics
+
+These are the rules for play, how to tell if you succeed or fail at the various tasks and efforts you attempt. The special case of combat is covered in the next section.
+
+
+=== General Actions
+
+Whenever your character tries to do something, the GM will respond in one of three ways, depending on the difficulty of the task. The task might be *automatic* (no roll required), *chancy*, or *impossible* (no roll allowed), as ruled by the GM.
+
+
+=== Chancy Actions
+
+Roll some dice, add the numbers up, and the better you roll, the better the result. Specifically, your total is compared to some other number.
+
+Three results are possible.
+
+1. Your total beats the number. You succeed at what you were attempting. The greater the difference between your roll and the number, the greater the success, as ruled by the GM.
+
+2. Your total equals the number. Draw, stalemate, or inconclusive results are thus indicated.
+
+3. Your total is less than the number. You fail, and the greater the difference between the numbers, the more severe your failure, as ruled by the GM.
+
+
+==== How Many Dice Do You Roll?
+
+Generally, you roll two, three, or four dice, depending on the action and your traits. If you are trying something that directly involves one of your traits, roll the number of dice equal to your score in that trait. If the action has nothing to do with any of your traits, you roll two dice.
+
+That means that the average person attempting the average task rolls two dice. For example, a character is trying to look cool. He is good at manipulating people (score of 3), so the GM tells him to roll three dice. The higher the number, the cooler he appears. A normal person would only get to roll two dice, and a nerd would roll two dice but suffer a penalty die (see below). If he had chosen to have "`manipulating people`" as his "`superior`" trait, he would have gotten to roll four dice.
+
+If you try something at which you have some kind of edge or advantage, you get a *bonus die*. (These bonus dice are awarded by the GM in the situation; they do not come from your experience pool.) Roll it right along with your normal dice, but drop out the lowest die you roll. Your total is still composed of the same number of dice as normal, but they're likely to be higher rolling dice. That's how your advantage translates into game mechanics.
+
+If you try something at which you have some special difficulty or hindrance, roll a *penalty die* along with your regular dice. Now drop out the highest rolling die and use the total of the remaining dice as your roll.
+
+If you get a bonus and a penalty die for the same roll, they cancel each other, and you roll normally. You can use an experience die to cancel a penalty die, but then you cannot use the die again for the rest of the gaming session.
+
+The GM assigns bonus dice and penalty dice depending on her judgment of the situation. You can ask for a bonus die when you think you deserve one.
+
+For example, if a character, before trying to impress this good-looking woman, had successfully watched her for a few hours, he would get a bonus die on his roll (roll four dice and take the best three). On the other hand, if, unknown to him, he had a splotch of ketchup on his tie, he would have to roll a penalty die (four dice, take the worst three). If he had done his research and had ketchup on his tie, he would get neither bonus nor penalty, as they balance each other out.
+
+
+==== Comparing Your Roll
+
+There are two ways to determine what number to compare to your die roll.
+
+When you are working against an inert force, the GM assigns a *difficulty factor*. That's the number to which you compare your roll, and the more difficult the task, the higher the difficulty factor. Alternately, the GM can roll dice for the strength of the inert force, introducing more chance into the equation. The harder the task, the more dice the GM rolls. An easy task would get one die, a moderate task (for the average person) would get two dice, a hard task would get three dice, a really difficult task would get four dice, and a nearly impossible ask might get five or six dice.
+
+When working against an active opponent, *the opponent rolls a number of dice,* just like you do, depending on the opponent's traits and bonus or penalty dice, if any. You and the opponent compare your rolls, with the specific results determined by the GM. Generally, the higher roll wins.
+
+For example, that character is trying to impress the woman he's met at a bar. She notices this, and in turn tries to impress him and gain the upper hand. She has three dice, as well. If the character has been watching her carefully, he'll get a bonus die (and thus an advantage). If he has ketchup on his tie, he'll get a penalty die (a disadvantage). The player and the GM (running the woman) each roll their dice, and the GM interprets the results depending on who beat whom.
+
+Note that the GM need not tell you what she rolls for a GMC, or even how many dice she is rolling. The GM only needs to tell you the results of your action as your character perceives them.
+
+
+==== A Special Case: Technical Traits
+
+With technical skills (such as "`acupuncture`"), even a score of 1 die indicates the character can do things that the average person would have practically no chance to do. (The average person has a score of 0 in acupuncture.) A 1 die acupuncturist might not be very skilled or experienced, but he is still able to do things that even a score of 3 or 4 in another skill would not permit. Assume that someone with such a skill can automatically perform any related action that an unskilled person could do but would have to roll for, as well as most normal functions related to that skill. Generally, a character only rolls for a technical trait in some unusual situation, such as diagnosing an unusual disease or piloting a helicopter through a storm.
+
+In GMC descriptions, technical or fringe traits, where the average person would have no dice in the trait, are indicated with an asterisk (e.g., "`Neurosurgery, 1* die`").
+
+
+==== The Rule of Common Sense
+
+Sometimes the dice will dictate an event that runs counter to common sense, something that would strain the players' willing suspension of disbelief. There are two possibilities when this happens.
+
+First, remember that strange things happen all the time in-game. Go with the result, no matter how bizarre. Maybe the GM will invent a justification for it, maybe not.
+
+Second, don't bother to roll the dice in the first place, if common sense makes clear what's going to happen. The dice are a way to answer the question "`What happens?`" Don't ask questions that you already know the answer to.
+
+The GM has quite a job determining just what is "`common sense.`" Make the job easy for her and don't argue when she makes a ruling.
+
+
+==== The Hand of Fate
+
+Sometimes a chancy situation develops in which no trait truly applies, but the outcome is uncertain. In this case, roll two dice. A high roll means a result good for the players, a roll around 7 means a mediocre or average result, and a lower roll means a bad or dangerous result.
+
+For example, a character is taking his date out on a picnic, and the weather has not yet been determined. The GM lets him roll the dice, and he gets a 5. The GM rules that the 5 means an annoying wind that keeps blowing the picnickers' napkins away, but nothing serious.
+
+
+=== Optional Rules
+
+The use of these rules is up to the GM. The GM may use an optional rule all the time, some of the time, or none of the time, according to her preference.
+
+
+==== Botches
+
+When you roll all 1's for a given action, you have botched. Not only have you automatically failed in your attempted action, but something really bad happens. The GM determines the outcome of the botch.
+
+Note that a penalty die greatly increases your chances of a botch, which is as it should be. Likewise, a bonus die greatly decreases botch frequency.
+
+For example, a character is trying to break through a locked door. He rolls two dice, and they come up snake-eyes. The GM rules that, not only did the door fail to budge, but he has inadvertently broken the weird device he is carrying in his pocket that he found last session.
+
+In another example, a character is conning a gullible fellow into trusting him. Unfortunately, he is a bit tipsy at the moment, so he gets a penalty die. He rolls four dice, and they come up 5, 1, 1, 1. That comes to 3, total, and a botch. The gullible GMC rolls one die for resisting the character's schemes, and gets a 2. Even though this is lower than the 3, the character's roll was a botch, so he fails. Suddenly the "`gullible little twerp`" is pointing a big knife in the character's direction.
+
+
+==== Blowing the Top Off
+
+This optional rule eliminates the maximum from a character's rolls. If the player rolls all 6's on any given roll, he rolls another die and adds it to the total he already rolled. If that die is a 6, he rolls it again and adds it, and so on. There is therefore no upper limit to what a character could roll. If you don't like the idea of artificial limits to a character's possible roll, this system may be what you're looking for.
+
+Keep in mind that if you use this optional rule, penalty dice and bonus dice are going to have a bigger impact than if you don't use this rule, just as is the case for the botch rule above.
+
+
+==== The Unstoppable Six
+
+If any of your dice are sixes, you obtain some positive result, even if you are not successful in the roll. Just what this "`limited success`" entails is up to the GM (of course). Also, the more 6's you get, the more powerful your "`loser's revenge`" will be.
+
+For example, a character comes face to face with the shrieking ghost of an Atlantean priest. While the other PCs look disconsolately at their useless weaponry, he says that he is dredging his mind for spells that could bind this ghost to his control. The GM says he does indeed remember such a spell, and has the player roll four dice. He rolls a 13, against the priest's roll of 6, 3, 1, for a total of 10. The character wins and the GM says he can direct the spirit to inhabit a physical object. What the character doesn't know is that the ghost rolled a 6, and that the GM decides that this result means that the ghost has kept itself from being completely controlled.
+
+
+=== Multiple Actions
+
+You may attempt more than one action in a round, but by doing so you take a penalty on each action. If you attempt one extra action, you suffer a penalty die on all actions (including defense rolls). If you attempt two extra actions, you roll one fewer die on all actions undertaken in that round. Three extra actions means two fewer dice than normal, four extra actions means three fewer dice, and so on.
+
+=== Tangential Traits
+
+Sometimes you have a trait that does not exactly apply to the task at hand. In this case, the GM may allow a bonus die (if the trait is 3 dice) or an extra die (if the trait is 4 dice or better).
+
+For example, consider a model with 3 dice in the trait "`model.`" This central trait covers good looks, use of make-up, and possibly bad acting. If she tries to use make-up to alter her own appearance give her two dice plus a bonus die; that's better than average but not as good as someone with the trait "`disguise.`"
+
+
+=== Group Efforts
+
+When working together, PCs can improve (or sometimes decrease) their chances of success. Depending on how well a given task can be accomplished by more than one person, the GM can call for one of the following resolution systems.
+
+
+==== Simple Addition
+
+In tasks that two people can easily do simultaneously without getting in each others' way, add the dice of both characters together.
+
+For example, two characters are trying to lift a stone that's covering a chute to some underground passage. The GM decides that a roll of 13 is necessary to move it. (That means an average person wouldn't have a chance of moving it alone.) They each get two dice for brute strength, and they roll a 4 and a 10, for a total of 14. They move the stone and descend into the darkness.
+
+
+==== Combining Dice
+
+In tasks where two can work together effectively, but not perfectly, roll all the dice and take the highest, a number of dice equal to the number normally rolled by the best of the cooperating characters. (Effectively, the dice rolled by lesser characters become bonus dice for the best.)
+
+For example, two characters find a cache of ancient texts, partially translated into barely coherent English. Under time pressure, they rush through the texts looking for something useful. He rolls four dice, she rolls two, and they take the best four dice between them to see how much information they can glean quickly.
+
+Their escape is cut short, however, when a gang of roughs surrounds them. The first character is up against five of them, who roll two dice in combat. The GM rules that they don't fight in a coordinated pattern, and that not all five can get to the character at once, so they only get "`combining dice.`" He rolls three dice for 14, while the gang members roll ten dice and take the best two, a 5 and a 6. The character manages to beat off the gang members, but (because of the unstoppable six), he suffers a nasty kick in the groin while doing so (5 hit points damage).
+
+NOTE: This fight was an example of "`gestalt`" combat.
+
+
+==== Either/Or
+
+Sometimes characters split up a task so that only one of them (determined randomly) has a chance for success. In this case, all the PCs might roll, but only the one with a real chance for success counts.
+
+For example, two characters decide to search the bodies of their fallen enemies for anything of interest. Each PC searches half of the bodies, so only one will even have a chance to find the note hidden in one's pocket. The GM rolls and determines that the second character is searching the relevant body. Being perceptive, she rolls three dice plus a penalty die for the darkness of the chamber; she gets an 8, good enough. Meanwhile, the first character rolls a 4, and the GM tells him he found nothing. He doesn't know that there wasn't anything for him to find, anyway.
+
+Now if these two PCs weren't running for their lives, they might have gone over each of the bodies together (using combining dice). As it was, they sacrificed thoroughness to save time and are once again fleeing for an exit from the cavern.
+
+
+==== Worst Roller
+
+When two or more characters attempt something that should really be left to one of them, they all roll, and the worst roll is used to determine the result.
+
+For example, two characters have finally found an exit to the caverns they're searching, a tunnel that opens onto the private grounds of a wealthy businessman. While looking for a way out, they are discovered by a security team armed with tasers. Immediately the first character pretends to be happy to see them and launches into a tale about how they're lost. Hoping to help, the second character speaks up and adds some details. The GM tells each player to roll for the effectiveness of their stories, three dice for the first character (who is good at manipulating people) and two dice for the second. The first character, with his roll of 9, beats the guards' roll of 7, but the second character rolls only a 6, and the guards become suspicious. Rather than take chances, the guards taser the two of them and drag them off to an interrogation room.
+
+If they had taken time to invent and rehearse a story, they would have been able to use combining dice (best three out of their five dice), but since they didn't coordinate their subterfuge, the guards had a much easier time seeing through their ruse.
+
+
+== Combat Overview
+
+[horizontal]
+Initiative:: Roll a combat, agility, or speed trait at the beginning of a combat. Actions proceed each round from highest roller to lowest.
+
+Attack:: Roll a combat, strength, agility, or similar trait. Compare it to the defender's roll. A non-combat trait can only be used for either attack or defense each round. You hit your opponent if you beat your opponent's defense roll.
+
+Defense:: Roll a combat, agility, or similar trait. A noncombat trait can only be used for either attack or defense each round. You get one defense roll for each attack made against you.
+
+Damage:: On a successful hit, subtract the defense roll from the attack roll. Multiply the result by the weapon's damage factor to calculate the damage done.
+
+Armor:: The defender determines armor protection (usually 1 point for casual armor, or one or two dice for good armor). Subtract this protection value from damage done to get damage taken.
+
+Lost Hit Points:: Subtract the damage that exceeds armor from the target's hit points. If the target is at half hit points or below, they take a penalty die on further actions. If at 0 hit points or below, the target is out of the fight. If at a level of hit points equal to the negative of their normal hit points (e.g. -21 for a character with 21 hit points), they are purchasing agricultural real estate.
+
+Recovery:: After a chance to rest and recuperate (maybe half an hour), you recover half the hit points you lost. After that, you recover only by rest or medical care.
+
+.Damage Factors
+[%autowidth, cols="2"]
+|===
+| Unarmed combat | X1
+| Throwing knife | X1
+| Knives, lead pipes, throwing axe, etc. | X2
+| Swords, axes, etc. | X3
+| Light handgun or SMG | X3
+| Medium handgun or SMG | X4
+| Large handgun or SMG | X5
+| Light Rifle | X6
+| Heavy Rifle | X7
+| 12-gauge shotgun | X10 footnote:[Divided by "`distance dice`" (see "`<<Weapon Ranges>>`").
+| Taser | X5 footnote:[All damage from a taser is temporary. Record it separately; it all comes back when the character recovers.]
+|===
+
+
+== Combat
+
+The rules above rely a lot on common sense, the GMs ability to adjudicate ambiguous results, and your goodnatured acceptance of the GMs rulings. In combat, when things happen fast and your life is on the line, you probably need more specific rules. Here they are.
+
+
+=== Movement in Combat
+
+Sometimes you will want to know just how long it takes to get from one place to another. Assuming a 3 second round, you can move at the following speeds:
+
+[%autowidth, cols="2"]
+|===
+| Walking (3 km/h) | 2.5 m/round
+| Hurrying (6 km/h) | 5 m/round
+| Jogging (9 km/h) | 7.5 m/round
+| Running, steady (12 km/h) | 10 m/round
+| Running, fast (18 km/h) | 15 m/round
+| Sprinting (24 km/h) | 20 m/round
+|===
+
+For reference, remember that a "`4 minute mile`" means running at about 24 km/h for four minutes. Not many people can do it, though some can run that fast or faster for much shorter periods of time. Also remember that characters usually do not have light clothes, running shoes, a generous warm-up, and a clear track on which to run. That 24 km/h figure is impossible for most PCs in most situations.
+
+
+=== Initiative
+
+When the fight starts, each player rolls for *initiative*. Use whatever traits are appropriate. For example, traits such as "`agile,`" "`good reflexes,`" and "`martial artist`" count. Lacking any such trait, a character rolls 2 dice. The GM can roll for all the GMCs with one roll for simplicity's sake. The GM or a helpful player writes down the characters from highest roll to lowest. This is the order in which they will act each round.
+
+Or have each of the players act in the order they are seated around the table, with the GM acting first or last.
+
+
+=== Rounds
+
+Each round is long enough for each character to do one thing. That way everyone stays involved all the time. Generally, a round equals 3 seconds of action in the game world.
+
+The GM calls on each player in turn, depending on their *initiative* rolls. When you are called, you get to do one thing that you could do in a few seconds, such as try to hurt somebody, run away, use a fringe power, scream for help, try desperately to patch a bleeding wound, find that necessary implement in your backpack, or whatever. If you try to do too much, the GM will only let you perform part of the intended action. The most common thing my players do is try to take a piece out of their opponents, rules for which are below.
+
+You may also wait to act until later in the round, in which case you just interrupt when you want to take your turn. (By waiting, you can coordinate a simultaneous action with another character.)
+
+
+==== How Long is a Round?
+
+If a combat represents a lightning fast exchange of blows between kung fu masters, each round might be a second, or even less. If the combat is a duel between two sophisticates who like to insult their opponents and hold a nasty dialogue while pounding on each other, then a round might be ten seconds or more. Unless the GM rules otherwise, assume a round is about three seconds long.
+
+
+=== Attacks
+
+When it is your turn to attack, roll your relevant attack trait, such as "`Strong,`" "`Martial Artist,`" or "`Good with a Baseball Bat.`" If you get a penalty die or bonus die, add it in.
+
+The target of your attack makes a defense roll, using traits such as "`Fast on My Feet,`" "`Good Brawler,`" or "`Slippery as an Eel.`"
+
+NOTE: A non-combat trait cannot be used for both attack and defense in a single round. If you are "`Agile,`" you must decide each round whether to use that trait for your attack or defense roll. A specifically combat oriented trait, such as "`Good Knife- Fighter`" can be used for both attack and defense rolls. This rule preserves game balance. Since a trait like "`agile`" has non-combat applications that "`good knifefighter`" does not have, it wouldn't be fair to allow such a broad trait to equal a strictly combat-oriented trait in a fight.
+
+On the other hand, someone who is "`Strong as an Ox`" and has "`Good Reflexes`" to boot could use "`Strong as an Ox`" for the attack roll and "`Good Reflexes`" for the defense roll.
+
+So you've rolled your attack roll and the other guy has rolled defense. Compare the numbers. If your attack roll is less than or equal to the defense roll, you have failed to connect for significant damage. If your attack roll is higher than the target's defense roll, you've scored a hit and will do damage. Subtract the defender's (lower) roll from your (higher) roll. Multiply this result by the damage factor for the weapon you are using, and the total is the damage you have just dished out (more tasty details below).
+
+Bear in mind that making an attack roll does not represent a single swing or lunge; it represents three seconds of trying to get the other guy. A high roll might mean that you have pounded your opponent in the head several times, not just once.
+
+
+==== Ranged Attacks
+
+For *missile weapons* like guns and crossbows, the system is a little different because it is harder to hit someone at a distance with a single shot than it is to stab somebody next to you during three seconds of your best effort. With missile weapons, the target receives a defense roll based on such factors as range, movement, cover, and so on. The GM assigns the defense roll, based on the factors in the "`Ranged Attacks`" table.
+
+The distance terms are highly subjective as they depend on the type of weapon being used. The Weapon Ranges chart lists the range in meters at which the target receives various defense dice, based on the type of weapon used. If the distance in meters exceeds the number listed, use the next higher number of dice. For example, if someone opens up with a sub-machine gun while you are 30 m away, you will get 3 defense dice for range, in addition to dice for dodging, moving, cover, and so on.
+
+.Ranged Attacks Table
+[%autowidth, cols="<s,^,^"]
+|===
+| | Defense Dice
+
+| Distance | Point Blank | 1
+| | Short Range | 2
+| | Medium | 3
+| | Long Range | 4
+| | Very Long Range | 5
+| Cover | | 1 or 2
+| Target Moving | | 1
+| Attacker Moving | | 1
+| Target Dodging | | bonus footnote:[Defender gets bonus dice equal to the number of dice normally rolled for "`agility,`" "`quick reflexes,`" etc. (The default is 2 dice.) Someone with "`fast, 4 dice,`" for example, would receive 4 bonus dice on the defense roll. A clumsy character receives only one bonus die for dodging.]
+| Darkness, fog, etc. | | 1 or 2
+|===
+
+The target rolls the number of dice indicated from among the above factors as his defense roll.
+
+.Weapon Ranges
+[%autowidth, cols="<,^,^,^,^,^"]
+|===
+| 3+^| Dice for Defense Roll
+
+| *Weapon* | *1* | *2* | *3* | *4* | *5*
+| Thrown, balanced footnote:[Such as a ball or throwing knife.] | 2m | 4m | 8m | 16m | 32m
+| Thrown, awkward footnote:[Such as a sword or blender.] | 2m | 4m | 6m | 8m | 10m
+| Crossbow | 2m | 10m | 20m | 40m | 80m
+| Taser | 1m | 2m | 5m | {blank}footnoteref:[cords,Their electric cords don't extend past 5m.] | {blank}footnoteref:[cords]
+|===
+
+===== Weapon Range Table Notes
+
+To find the "`distance dice,`" find the number that is equal to or higher than the distance to the target. Now find the number at the top of that column, that's the number of "`distance dice`" rolled for defense. For example, if you throw a baseball ("`thrown, balanced`") at someone 6m away, the target gets 3 dice for the defense roll (plus other modifiers besides distance).
+
+If the GM wishes, she can use "`half-dice`" when characters do not deserve full dice under the rules above. For instance, someone under very light cover might just get a bonus die instead of an extra die on defense, or someone standing 5m from a knife-thrower might get 2 dice plus a bonus die for range, rather than jumping straight from 2 dice to 3 because of the difference between 4m and 5m.
+
+Some weapons may, at the GM's option, have ranges different from their general types, based on design. After all, some weapons are just better than others.
+
+
+=== Predictable Attacks
+
+If you ever make a predictable or boring attack on an opponent, the GM has the right to give you a penalty die on the attack. Here are some examples:
+
+[horizontal]
+Penalty die:: "`I swing at it.`"
+
+No penalty die:: "`I pull back for an allout blow at that thing's lower face.`"
+
+Penalty die:: "`I try to hit it in the gut again.`" (After trying the same thing the round before.)
+
+No penalty die:: "`Well, it's gut is pretty well protected; I'll drop to the ground and sweep its feet out from under it.`"
+
+There are two reasons for this rule. First, if you try the same attack repeatedly or attack without planning (as evinced by phrases like "`I swing`"), then your opponents are going to have an easy time defending themselves. Second, "`I swing`" is boring.
+
+The "`predictable attacks`" rule does not apply to GMCs.
+
+
+=== How Much Damage?
+
+If you've scored a hit, now you take the difference between your roll and the defender's, multiply it by a damage factor (see below), and the result is the number of points done in damage. Certain types of armor subtract a certain number from each attack that does damage. Only the points in excess of the armor's rating can do damage. These points are deducted from the target's hit points.
+
+.Damage Factor
+[%autowidth, cols="2"]
+|===
+| Unarmed combat | X1
+| Knife, lead pipe | X2
+| Sword, axe | X3
+| Throwing knife, slingshot | X1
+| Crossbow, throwing axe | X2
+| Taser | X5 footnote:[All damage from a taser is temporary. Record it separately; it all comes back when the character recovers.]
+|===
+
+
+==== Tasers
+
+Tasers are popular among private security forces. Tasers hit you with a massive amount of voltage, probably enough to knock you down and keep you down for a while, but they do no permanent physical damage (unless you have a weak heart…). They have a damage factor of X5.
+
+Versus armor, tasers are an exception to the general rule because the damage comes from electric shock rather than kinetic energy or penetration. Roll the dice for armor as if for a normal (non-bullet) attack. If the dice match or exceed the number by which the attack roll exceeded the defense roll, the armor has prevented the taser from penetrating, and you take no damage. If the roll is less than the number by which the attack roll exceeds the defense roll, the taser does full damage. In other words, either the armor stops the taser or it doesn't; there is no middle ground.
+
+
+==== Messed Up
+
+If the target is now at half or less their normal hit points, they suffer a penalty die on all actions until they recover to more than half their normal hit points. The GM may assign more specific debilities for characters that have received specific wounds, such as decreased mobility from a knee shot, decreased vision from a blow to the eye, and so on.
+
+
+==== Down for the Count
+
+If the target is at 0 hit points or below, they are out of the fight. "`Out of the fight`" can mean a lot of things, depending on the type of weaponry used and the number of points below 0 that the target is at.
+
+When you have taken enough damage to be out of the fight, but not enough to kill you outright, you may find yourself in any of various states of disrepair.
+
+Someone dropped to 0 by fists and kicks is likely hurt, unable to fight, demoralized, in great pain, and probably suffering some broken bones. The situation, however, is rarely lethal, and most vital organs are well-protected by a body structure carefully shaped by millions of years of evolution. Such an injured character should be able to return to impaired function with time or the help of friends and eventually recover completely.
+
+Someone at 0 or below from application of clubs, cudgels, monkey wrenches and the like may well have badly broken bones and internal bleeding, but they're likely to be in stable condition. They might be able to resume mobility after a while even if left on their own, though they might have a concussion.
+
+Knives and other sharp, pointy things are likely to leave you incapacitated and bleeding. Untended, you could easily bleed to death (especially from a slashing weapon) or die from internal injuries (especially from a puncturing weapon).
+
+Guns and similar are likely to leave you in shock, dying, bleeding, helpless, and hopeless. Emergency medical attention may well be required
+to save you.
+
+
+==== Character Death
+
+As a rule of thumb, a character dies when he has taken twice as many points of damage as he has hit points. If you have 21 hit points and drop to -21 through wounds, you are either dead or checking out. In order to survive, you need medical attention and a reason to live.
+
+At that point, you face the decision of recovering or letting go. Attempting to recover means piecing your broken body back together, suffering prolonged pain, possibly facing permanent injury, and perhaps dying anyway after undergoing all that tribulation. Letting go is often the easier option, letting yourself slip into the great white light, where the damage inflicted on your body will not be an issue at all. At the point of death, you can only direct your will to recover if you have a good reason to live. Tell your reason to live to the GM; if she agrees it is sufficient, you live. Otherwise, you slip off into the great beyond. (Of course, the GM may wish to make a roll or two when deciding whether you live.)
+
+
+=== Armor
+
+Armor comes in two types: regular armor and bullet-proof armor. These rules deal with regular armor. See the rules for Firearms for details on bullet-proof armor and the effect of regular armor against firearms.
+
+
+==== Regular Armor
+
+The rating for regular armor represents the number of dice rolled and deducted from each attack.
+
+*Very light armor* (generally leather clothes and the like) has a rating of "`1 pt.`" It stops only one point of damage versus normal attacks.
+
+*Heavy armor* can slow you down, causing you to take a penalty roll on every action that requires agility (including attack and defense rolls).
+
+The protection offered by armor is cumulative, but "`stacking`" armor causes a penalty die for each extra layer of armor worn. For example, someone wearing thick leathers under their plate mail would roll 2 dice and add 1 point for protection, but they would also suffer two penalty dice on agility-related actions (one for the plate mail, the other for the extra layer of armor).
+
+Armor can be exposed to some pretty rough treatment, and may degrade after suffering significant punishment, but this circumstance is best left to role-playing rather than number-crunching.
+
+.Regular Armor
+[%autowidth, cols="<,^,^"]
+|===
+| Type | Rating | Penalty?
+
+| Leathers | 1 point | no
+| Armored Jacket | 1 | no
+| Plate Mail | 2 | yes
+|===
+
+
+=== Recovery
+
+For game purposes, assume that about half of damage (in terms of hit points lost) comes from pain and shock. Only the other half is "`permanent.`" Thus, after a fight is over and the characters have some time to rest, *every character recovers half of the lost hit points.*
+
+
+==== Hit Point Recovery Conventions
+
+1. The character recovers hit points when the GM sees such recovery as reasonable. Generally, after a character receives some rudimentary first aid and has a chance to regain spent strength, the hit points return. Alternately, the GM may allow recovery under special circumstances, as when an impressive leader orders an incapacitated follower to get up and keep moving, or when dire need arises.
+
+2. Hit point level after recovery is halfway between the wounded level and the last level after recovery. Do not use the starting (unwounded) level of hit points as a base unless the character started the fight unwounded. For example, a character takes 10 points of damage and drops from 22 to 12 hit points. He then recovers half the lost hit points and now has 17 hit points. Again he takes 10 points of damage, dropping to 7 hit points. He recovers to halfway between 7 and 17, not to half-way between 7 and his normal level of 22. He now has 12 hit points and will only get more through medical attention or prolonged rest.
+
+3. Round hit points up, if half-way recovery results in a fraction. (This means that being wounded for 7 points twice will leave you 6 points down from normal, whereas being wounded for 14 points once will leave you 7 points below normal. Multiple small wounds are slightly easier to recover from than a few large wounds.)
+
+4. The GM can require rolls of any kind to determine whether a character recovers. For example, if very little time has passed since a fight (normally not enough to allow any recovery), the GM may allow someone trained in first aid to make a roll, and only a success in the GM's eyes will allow hit point recovery.
+
+5. The GM has the right to change the recovery from half-way to more or less than that. For example, it might be relatively easy to recover from being beaten with fists (two-thirds of the loss recovered), and relatively difficult to recover from serious gunshot wounds (one-third recovered). The GM has sole arbitrating power over this variation, so she can make the system as complex or as simple as she cares to.
+
+
+=== Healing
+
+Once a character has recovered, he can start regaining the remaining lost hit points. Hit points are regained each day, with the points regained based on the activity undertaken that day. See the Long-Term Healing table, below, to see how many hit points you recover each day.
+
+.Long-Term Healing Table
+[%autowidth, cols="<,^,^,^"]
+|===
+| Activity | Mobile | Bed-Ridden | Critical
+
+| Active | 0 footnoteref:[rest,May lose hit points, at the GM's option.] | — | —
+| Rest | 1 | 1 per 2 days footnoteref:[rest] | 0 footnoteref:[rest]
+| Medical Care | 2 | 1 | 1 per 2 days
+|===
+
+* Active means exerting oneself normally.
+* Rest means taking it easy and sleeping a lot.
+* Medical care means being under the care of competent physicians.
+* Mobile means you have 1+ hit points (and can move around).
+* Bed-Ridden means you have 0 or fewer hit points.
+* Critical means you are severely wounded (GM's option).
+
+
+=== Special Effect Attacks
+
+When a character tries an attack that is intended to do more than just some damage, the attack roll is made normally, but only half the normal damage is done. The special effect succeeds only if the attack roll exceeds the defense roll by an amount the GM judges to be sufficient.
+
+Special effect attacks include tackling, disarming, knocking your opponent's feet out from under him, immobilizing a limb, headlock, and so forth.
+
+
+=== Attacking from Advantage
+
+Whenever you have the edge over an opponent because of something besides your traits, you can ask the GM to give you a bonus die on your combat roll. Common advantages are:
+
+
+==== Ganging Up
+
+Someone can defend normally against one opponent for each die they have in fighting ability. (An average person, therefore, can defend normally against two attackers.) Each additional attacker receives a bonus die on attacks against that character. The defender gets to choose which attackers get the bonus die.
+
+
+==== Attacking With Surprise
+
+The GM might require a roll to see how stealthy you are compared to how alert your target is. If you hit the guy when he's totally unaware, the GM might grant you more than just a bonus die.
+
+
+==== Better Weaponry
+
+If you have a club and your opponent is bare-handed, you've got an advantage (better reach, something to block with that doesn't bleed, and a psychological edge). The same goes if you have a sword against someone's switchblade. Remember that this bonus die depends not on how much damage you do, but on how handy the weapon is in combat. Imagine you have a quarterstaff and your enemy has an axe. He does more damage, but in terms of reach and blocking ability his weapon is no better than yours, so he doesn't get a bonus die. If he had some weird science vibrating knife that did horrendous damage, you'd get the attack bonus because the quarterstaff is longer and better for parrying. Of course, if he hit you, you'd suffer worse than he would if you hit him.
+
+
+==== Better Position
+
+On top of them, above them, behind them, and so forth.
+
+
+==== Psychological Advantage
+
+You've just convinced you opponent that their chances of beating you are nil. The next round (only) you get a bonus die on your rolls. Using a nasty-looking weapon helps a lot, even if it's no more effective than a regular one.
+
+Or, if your seven-year-old daughter is whimpering helplessly in the closet behind you as you defend her from a maniac, you get a bonusdie on your rolls for the duration of the combat.
+
+
+=== Optional Rules for Combat
+
+The GM decides when and whether to use these rules. The GM may use any given rule always, sometimes, or never.
+
+
+==== Desperate Defense
+
+A character normally gets one attack roll and one defense roll per attacker each round, but if you give up your attack, you may get a bonus die on each defense roll for that round.
+
+
+==== Alternate Damage
+
+If the attacker scores a hit, they roll one die for each number in the damage factor for the weapon. If the attack roll is twice the defense roll, the attacker multiplies the result by two.
+
+For example, a knife does 2 dice of damage, or 2 dice times two if the attack roll is at least double the defense roll.
+
+A character may not use bonus dice for damage rolls, only for the attack rolls.
+
+You may use this system when an "`attack roll`" is not called for, such as when an explosive goes off near a character and the GM simply rolls some dice to determine damage.
+
+
+==== Serious Wounds
+
+In addition to losing hit points, a character can suffer a "`serious wound.`" Serious wounds do not always heal completely on their own. Without medical attention, these wounds may "`mis-heal`" (causing a permanent impairment) at best or lead inevitably to death at worst. Examples of serious wounds include compound fractures, internal bleeding, penetration of intestines, damage to internal organs, severed tendons, and more.
+
+A serious wound that mis-heals without medical attention, such as a severed tendon or a compound fracture, heals at half the normal rate and leaves the character with a permanent disability, such as a penalty die on agility-related actions or the inability to manipulate certain joints.
+
+A serious wound that leads to death, such as a severe infection or severe damage to the liver, causes the character to lose hit points every day until proper medical attention is applied. Hit points lost can be anywhere from 1 to 15 per day, depending on the wound. Such a character is usually bedridden while the doomed body makes its last-ditch effort to save itself.
+
+A wound is usually a "`serious wound`" when at least 20 points of damage are suffered in a single blow, but it is possible to take a serious wound from a relatively minor attack, such as a badly broken arm that doesn't incapacitate you but won't heal well on its own. Another possibility is that a botched defense roll leads to a serious wound. The GM, of course, may prefer to play serious wounds by ear.
+
+
+==== Gestalt Combat
+
+In the gestalt system, you make one roll to determine the general outcome of the fight. The players total all their rolls, and the GM totals all the GMCs' combat rolls. (The GM determines what rolls are made and how, depending on the circumstances of the fight.) Whichever side rolls highest wins the fight, but the GM keeps the GMCs' total a secret, so the players don't know who will win. Then the players and GM talk through the fight, with the GM adjudicating the actions based on the rolls already made. The GM can go into any level of detail desired, including dishing out damage to individual PCs that rolled poorly, or even altering the result of a close fight if the players use effective tactics.
+
+The GM can even simply declare the results of the fight with no play-by-play descriptions if she wants to keep things moving at a rapid pace.
+
+As a GM, use gestalt combat whenever the detail of normal combat seems pointless.
+
+
+== Experience
+
+Through experience, you can improve your skills or learn new ones. Your experience is represented by your *experience pool*. At the end of every game session, the GM can award bonus dice to the characters who partook in the action, and these dice are added to your experience pool, as previously explained. In addition, you can "`spend`" the dice from your experience pool to buy new skills or improve ones you already have. Each kind of improvement requires a certain number of dice that are permanently lost from your pool and some action in the game world. The GM must approve every trait improvement, and you can improve a trait any time immediately after meeting the requirement.
+
+
+=== Developing a New Trait
+
+It costs 5 dice from your pool plus game-world experience to develop a new trait. If the trait is something casual, such as brawling or reading people, you can pick it up without any special training. If it is technical or specialized, such as kung fu or computer programming, you need some kind of training.
+
+Once you have satisfied the need for training (if any) and spent the dice from your experience pool, you have one die better than normal in your new skill. If it is a technical or unusual skill, you have a score of 1 with the trait. If the trait is standard, something most people can do, if not well, then you now have a score of 3.
+
+All such traits developed in this way are the equivalent of side traits. In other words, they are quite specific, not the global traits possible to beginning characters as central traits. You can learn to foil security systems through this method, but you cannot become a "`good burglar.`"
+
+Traits that are not subject to easy development might require more than a little training. For example, you cannot gain the trait "`strong`" just by mucking around in the underworld for a while. If you want to develop a trait such as "`strong,`" you might need to undertake intense training over weeks, and a regular exercise regimen to maintain your strength once you have developed it.
+
+Use your common sense when deciding what it takes to develop a new trait.
+
+Invent a sign for each trait you develop.
+
+
+=== Improving a Current Trait
+
+For a trait listed as 1 or 2 dice, you can increase the score by 1 for every 5 experience dice you spend. Once a score is at 3 or higher, however, it becomes much harder to improve.
+
+First, you definitely need training to raise any score to 4. This training takes at least a year, if you are carrying on other activities at the same time, or six months, if you are training full time. In addition to the training, you must spend 10 experience dice.
+
+Raising any trait to 5 requires highly specialized, nearly full-time training. You might be able to undertake an adventure or two while training, but you will not have time to hold down a job. The training you need costs at least $1,000 US per month, and even finding a qualified trainer will be difficult. You are more likely to find a trainer by having the right connections than by looking in the yellow pages. In addition to the training, you will need to spend 15 experience dice.
+
+Raising a score to 6 is pretty much beyond the scope of the rules. It may not even be possible. You could shell out lots of money and spend a year working at it, and still see no significant progress. Getting such a high score is a matter of roleplaying rather than rule-playing.
+
+Of course, some skills lend themselves to gradual development over years of time. It is possible to develop a score of 6 in a skill just by applying yourself single-mindedly for years on end, but that's out of the scope of the game, wouldn't you say?
+
+The above rules are for discrete traits — side traits or those you develop during play. For your central trait, double the time and dice required. This extra expense is required because the trait actually covers several skills.
+
+
+=== Increasing Hit Points
+
+If your trait relates to hit points, you may earn more hit points by developing the trait or increasing your score in it.
+
+If this trait is the only one on which your hit points are based (or if you had no traits to improve your hit points), you may take +7 hit points or roll two dice and add the result.
+
+If another trait besides this one had a hand in improving your hit points, then roll double the number of dice that your newly improved trait offers. This is your new hit points score. (You may not raise your hit points by more than 12 points by this method.)
+
+For example, if a character works out and develops the trait "`strong, 3 dice,`" he can roll 6 dice. If this total beats his current hit points of 22, he gets the new roll as his hit points. If he manages to beat the odds and roll 35 or 36, however, he only gets to keep 34 hit points, 12 better than his previous score.
+
+
+== Firearms
+
+=== Firearm Attacks
+
+Use the rules for ranged weapons, using the ranges and damage factors on the table below. Note that encumbrance from armor does not affect firearm attack rolls.
+
+.Firearm Ranges
+[%autowidth, cols="<s,^,^,^,^,^"]
+|===
+| 5+^| Dice for Defense Roll
+
+| Firearm | *1* | *2* | *3* | *4* | *5*
+| Pistol | 2m | 10 m | 20 m | 40 m | 80 m
+| SMG | 2m | 25 m | 50 m | 100 m | 200 m
+| Rifle | 2m | 50 m | 100 m | 200 m | 400 m
+| Shotgun* | 4m | 8m | 16 m | 32 m | 64 m
+|===
+
+.Damage Factors: Firearms
+[%autowidth, cols="<,^"]
+|===
+| Light handgun or SMG | X3
+| Medium handgun or SMG | X4
+| Large handgun or SMG | X5
+| Light Rifle | X6
+| Heavy Rifle | X7
+| 12ga shotgun | X10 footnote:[Divided by "`distance dice`" from the Firearm Ranges table above.]
+|===
+
+
+=== Armor vs. Gunfire
+
+For game purposes, there are two types of armor: regular armor (as described earlier, in the Combat section) and bullet-proof armor (described below).
+
+
+==== Regular Armor
+
+Regular armor, described earlier, is only half as effective (round down) versus gunfire. If you roll 5 points of protection for your reinforced jacket, it only stops two points of damage against a gun.
+
+
+==== Bullet-Proof Armor
+
+The rating for bullet-proof armor represents the number of dice rolled when hit by a bullet or shotgun. Divide the damage by this number. (On a roll of a 1, the armor has no effect, meaning that the bullet hit an area not protected by the armor.)
+
+Against normal attacks, such as knives and punches, subtract the armor's rating from the damage.
+
+For example, if you rolled a 5 for your bullet-proof vest, you would divide the incoming damage by 5. If someone stabbed you with a knife, however, you would only subtract 1 point from the damage.
+
+When a character wears both types of armor, handle the regular armor first, and then the bullet-proof armor.
+
+Bullet-proof armor has a "`b`" by its rating in order to differentiate it from normal armor.
+
+.Bullet-Proof Armor Types
+[%autowidth, cols="<,^,^"]
+|===
+| Armor | Rating | Penalty?
+
+| Bullet-proof Vest | 1b | no
+| Bullet-proof Suit | 2b | no
+| Military Body Armor | 3/2b footnote:[First number is regular armor, second is bullet-proof armor.] | yes
+|===
+
+
+=== Easy Gunfire Example
+
+Two characters have unwittingly cornered a desperate operative in a docked ship. The operative, armed with a .22 revolver, fires a shot at the first character from his hiding place. He is within short range (8m away), so the character gets two dice for his defense roll. The operative is a crack shot (4 dice) and has leisure to aim (bonus die). The GM rolls a 16 versus the character's 6, that's a difference of 10 points, times 3 for the damage multiplier of a small caliber pistol, is 30 points of damage. The character is wearing a reinforced jacket and rolls 3 for the armor, but it's divided by 2 because regular armor doesn't work too well against bullets, so the armor stops only 1 point of damage. The character takes 29 points of damage, dropping him to -7. Since 29 points can kill the average person outright, the GM rules that the shot was a solid chest hit, and that the character could be dead. (She won't bother to rule precisely on his state of injury until the second character takes the time to check him out.)
+
+The second character breaks for the door, weaving as she goes. The GM rules that the operative is a good enough shot to fire on her before she moves out of short range, so she only gets two dice for distance, but she gets a third die for moving and four bonus dice for dodging. (The average character gets 2 bonus dice, but the character is extremely agile.) The GM rolls four dice and gets 17.
+
+The player rolls seven dice and takes the best three: 15. Her character takes 6 points of damage. Luckily, she is secretly wearing a bullet-proof vest, and she rolls 4 on her one die. Six divided by 4 is one and a half, rounded off is 2 points of damage. With a nasty bruise, the character hustles out of the room.
+
+As you see, a revolver using standard ammunition isn't very different from any other weapon, except for the new armor rules. More advanced firearms and specialized ammunition, however, requires some special rules.
+
+
+=== Gunfire Options
+
+Firearms of various types allow different firing tactics.
+
+
+==== Revolvers
+
+You can get one good shot per round with a revolver.
+
+
+==== Automatic Pistols
+
+You can get up to two shots per round, but the second receives a penalty die due to recoil from the first.
+
+
+==== Sub-Machine Guns
+
+Each round you can fire two single shots, one three-round burst, or one full auto shot (see below). If firing two single shots, you take a penalty die on the second due to recoil.
+
+
+==== Rifles
+
+You can fire one shot per round.
+
+
+==== Automatic Rifles
+
+You can fire up to two shots per round, one three round burst per round, or fire at full auto (see below). If you fire two single shots, you take a penalty die on the second.
+
+
+==== Three Round Burst
+
+A burst sends more bullets at the target, increasing the chance to hit, but the recoil on the second and third bullets makes them less accurate than the first. The farther the target is from the characters, the more detrimental this recoil is to the accuracy of the second and third bullets. A burst adds a bonus die to the roll to hit regardless of range. At point-blank or close range, it also adds +1 to the weapon's damage multiplier, but not at medium, long, or very long range. These modifiers represent the increased likelihood to score a hit as well as the probability that the victim will be hit by more than one bullet. If the resulting damage is low, assume that only one bullet hit. If the damage is very high, assume all three hit. If medium, assume two of the three have connected.
+
+
+==== Full Auto, One Target
+
+Full auto puts a lot of bullets in the air, but the massive recoil makes the extra bullets considerably less effective in hitting a single target. After the first few shots, the recoil is so great that the extra bullets have relatively little effect. Most of them go astray. Still, it is a little better than the burst. Full auto is most useful for pinning down the enemy or messing up a large number of targets. It is also the most effective method known for wasting huge amounts of ammunition. At point blank or close range, full auto trained on a single target provides a bonus die to hit and +2 to the damage multiplier. At medium range, take a bonus die and add +1 to the damage multiplier. At long or very long range take a bonus die, but there is no addition to the multiplier. You must have at least 10 rounds in your clip to qualify as "`full auto.`"
+
+
+==== Full Auto, Spread
+
+You can target one person for every five bullets fired. You cannot skip a target between two people who you do target. For instance, if your friend is between two enemies that you fire on, you must target the friend as well. At point blank range you receive a bonus die on each attack and +1 to the damage multiplier. At close range you receive a bonus die on the attack but no modifier on the damage factor. At medium range, you receive no bonus, other than the ability to target several opponents at once. At long range, you receive a penalty die against every target. At very long range, you receive two penalty dice against every target. Full auto does a lot of collateral damage as stray bullets hit the area around the targets.
+
+
+==== Shotguns
+
+One shot per round. Divide damage by the number of defense dice rolled for distance. For example, at 10m the defender gets 3 dice for distance, so you divide your damage by 3.
+
+
+.Gunfire Tactics Summary
+[%autowidth, cols="<,^,^,^,^,^"]
+|===
+| 5+^| Range
+
+| *Tactic* | *Point Blank* | *Close* | *Medium* | *Long* | *Very Long*
+| 3 round burst | b/+1 | b/+1 | b | b | b
+| full auto, 1 target | b/+2 | b/+2 | b/+1 | b | b
+| full auto, spread footnote:[Target one character per 5 bullets fired.] | b/+1 | b | — | p | 2p
+|===
+
+.Key to Gunfire Tactics
+[horizontal]
+b:: bonus die on attack roll
+p:: penalty die on attack
+2p:: two penalty dice on attack
++1:: +1 to damage multiplier
++2:: +2 to damage multiplier
+
+
+=== Ammunition
+
+In addition to standard rounds, most firearms can take specialized ammunition.
+
+
+==== Armor-Piercing Rounds
+
+Armor-piercing rounds do half normal damage, but armor is much less effective versus an armor-piercing round. Subtract the rating of the armor from damage, whether the armor is bullet-proof or normal. For example, a bullet-proof suit would provide 2 points of protection, while a military armor would provide 5 points of protection, 3 for its regular armor component and 2 for its bullet-proof component. This reduction in armor protection comes off the damage before it is divided by 2.
+
+For example, if the operative in the earlier example had been using armor-piercing rounds, the 29 points of damage he did to the first character would have been divided in half to 15 points. The second character's armor, however, would have reduced the damage only 1 point, rather than dividing it by 4, so she would have taken 5 points instead of 2.
+
+
+==== Hollow Point Rounds, Safety Slugs
+
+Hollow point rounds sacrifice penetrating power for extra damage and safety. (They will not pass through the body, allowing one to strike an enemy with less chance of the bullet traveling through the body and striking someone else, perhaps after ricocheting off a bone or two.) The damage factor for a hollow point or similar bullet is +2 more than normal, but armor of all kinds has twice its normal effect.
+
+If the operative had been using hollow points, his damage factor would have been X5 instead of X3, and he would have done 50 points of damage to the first character. The character's roll of 3 for his armor, however, would have been doubled to 6, so he would have suffered only 44 points total, just enough to kill him. The bullet hitting the second chracter would have done 10 points of damage instead of 6, but her roll of 4 would have been doubled to 8, so the bullet would have only done 1 point of damage. (Ten divided by 8 is 1.25, which rounds off to 1.)
+
+
+.Armor/Attack Summary
+[%autowidth, cols="3*<"]
+|===
+| 2*^| Armor
+
+| *Attack* | *Normal* | *Bullet-Proof*
+
+| Normal | full | minimum
+| Bullet | half | divide
+| Armor Piercing footnote:[Divide damage from armor piercing bullets by 2 after armor points have been deducted.] | minimum | minimum
+| Hollow Point footnote:[Hollow point bullets have +2 added to the damage factor.] | double | divide double
+|===
+
+.Key
+[horizontal]
+divide:: divide damage by roll
+divide double:: divide damage by double the roll
+double:: subtract double the roll from damage
+full:: subtract full roll for the armor from damage
+half:: subtract half the roll for the armor from damage
+minimum:: subtract number of dice (not roll itself) from damage
+
+For example, a reinforced jacket (rating: 1) would stop 1 die of damage from a knife, 1 die divided by 2 from a bullet, 1 point from an armor piercing round, or 1 die times 2 from a hollow point shell.
+
+A bullet-proof vest (rating: 1b) would reduce normal damage by 1 point, would divide bullet or shotgun damage by the number rolled on 1 die, would reduce damage from an armor-piercing round by 1 point, and would divide safety slug damage by double the roll on a die.
+
+A reinforced jacket over a bullet-proof vest would stop 1 die +1 point from normal attacks. Against a bullet, it would first stop 1 die divided by two (for the jacket), and then divide the remaining damage by a roll on 1 die (for the vest). Against an armor-piercing round, it would reduce damage by 2 points, one for the jacket and the other for the vest. Against a hollow-point round, it would first subtract double the roll on one die (the jacket), and then divide the result by double the roll on one die (for the vest).
+
+
+== Fringe Powers
+
+The role of fringe powers in the game is up to the GM. If you wish, they can be relatively common, at least among the player-characters and the GMCs with whom they interact. If you prefer a more subdued game, then you can tell players their characters cannot have them and then make them practically impossible to come across.
+
+When running fringe powers, use your imagination to adjudicate their use. The following rules are certainly open to modification and interpretation. When players invent fringe powers for their characters, they are unlikely to replicate exactly the powers described below. Try to be true to the player's vision, using these powers as guidelines for how to interpret the player's ideas, rather than as an authoritative list to which the players must conform. The same holds true when developing fringe powers for your GMCs.
+
+
+=== Learning Fringe Powers
+
+It generally takes a month of full-time study to learn a fringe power, and access to a knowledgeable teacher.
+
+At the end of that time, the player decides how many dice from his experience pool to use, rolls the dice, and only if at least one of the dice is a 6 does the character acquire the power. (Better or lesser teachers, improper preparation, native inclination, and other factors may, at the GM's discretion, alter these odds.)
+
+Optionally, the GM may rule that there is a chance that a character is psi-mute, unable to develop psychic powers. When the character first attempts to learn a fringe power, roll a die in secret. If the roll is a 1, that character is psi-mute and cannot learn fringe powers. The only way for the character to find out that he is psi-mute is to try to learn powers until he gives up. Do not use this optional rule if you think it will disappoint your players unduly.
+
+Rolls for the acquisition of psi powers are usually made in secret. The GM simply asks the player how many dice he wishes to give up from his Experience pool, and makes the roll herself. Don't give the players any information that their characters do not have.
+
+Upon learning his first fringe power, the character gains a psychic pool with one die in it. He may increase the number of dice in this Pool immediately by transferring dice from the experience pool (two experience pool dice can be traded for one psychic pool shot).
+
+
+=== Using Fringe Powers
+
+Everyone who has fringe powers has a psychic pool, representing the number of times he can use fringe powers each day. A psychic pool contains a specific number of "`shots,`" each of which can be used each day to power one of the character's fringe powers. "`Psychic pool`" is the game term used for convenience, but each character should have a name representing the way the character understands the power (ch'i pool, ki pool, magic pools, mana pools, and so forth). Regardless of their names, the pools work identically, so the rules refer to them simply as "`psychic pools.`"
+
+When a beginning character has a psychic pool, the player rolls a die to determine the number of shots in the pool. (Alternately, the player may choose to have 3 shots in the pool instead of rolling.) A character with two or more powers can roll for each, and take the highest roll to determine the number of shots in the pool. When a character develops a power for the first time, he has 1 shot in the pool. (If a character already has a pool, developing a new power does not increase the number of shots in the pool.)
+
+One shot can be added to the pool by subtracting 2 dice from the experience pool. So a character can give up four experience dice and add two shots to his psychic pool. He may not convert shots to experience dice.
+
+When a character uses a fringe power, he loses 1 shot from the psychic pool. He may also "`push`" the power, which means he loses 2 shots from the pool, but can roll twice the normal number of dice, counting only the better half. (For example, if you have two dice in "`dreamhaunting,`" you can use 2 shots for a single use of that power, roll four dice, and then count the best two as your roll.) If the power works against a being, that being gets a dice roll to resist. Most people get 2 dice. (Abilities like "`strong will`" or "`resistance to
+
+domination`" may give characters more dice to roll, at the GM's discretion.) A psychic may use a shot from his psychic pool to resist another's psychic power, if he knows the power is being used against him. If he uses this shot, he gets a number of dice equal to his best psychic power as bonus dice on his resistance roll. If the defending psychic has a fringe power that could counter the effects of the attacking power, he can use those dice in addition to the normal 2 dice that average people get, but must expend a shot to do so. For example, telepathy can counter mind scanning or telepathy. A 2 die telepath can expend a shot to get 2 more dice than normal when resisting a mind scan. A 2 die pyrokineticist, on the other hand, can expend a shot to resist a mind scan, but he would only get two bonus dice, not two extra dice.
+
+Psychic shots return 100% in 24 hours. If a character has six shots in his pool, he recovers one die every 4 hours. Some entities have unusual requirements or special advantages for recovering spent psychic shots. A druid, for example, may be able to recover shots at twice the normal rate when sky-clad (naked) under the moon. He may, however, recover shots at half the normal rate when not in contact with at least one natural element (fresh air, direct sunlight, etc.).
+
+Since a normal person gets two dice to resist abilities like telepathy, a beginner with a fringe power should try to improve his chances by making the situation more amenable to him. When trying to ferret out a secret computer password from another person, for example, he may offer the target drinks to lower his defenses and then mention computers in an effort to bring the password into his consciousness. The penalty dice the target would receive and the bonus dice the telepath can use may make up for the one die vs. two dice odds. GMs should encourage these special efforts because they add role-playing and strategy to what could otherwise just be a die roll.
+
+
+=== Interpreting Fringe Powers
+
+There's no way the rules can capture all the variability of fringe powers. Play them by ear, do what feels right and seems interesting, bend to the needs of the story. If it fits the plot for a character (PC or GMC) to be able to do something with a fringe power, let it be, even if the rules don't specify that interpretation, and sometimes even if the rules specifically disallow that interpretation.
+
+The most common example is duration. If a power lasts "`1 hour,`" then some people may shake it off in 50 minutes, while others might stay under the influence for an hour and a half. The duration is a general guide. Fringe powers do not "`pop off `" after the exact duration has expired.
+
+The same goes for distance. While a mind scanner may generally only be able to find thoughts within 10 m or so, the limit may be 100 m when searching for a good friend, 1 km when searching for an identical twin, or 10 km when searching for very powerful and uniquely evil thoughts emanating from a specific unnatural creature.
+
+Of course, the above call for loose interpretation applies to every trait and roll in the game, but it can be especially important in making fringe powers mysterious, interesting, and non-mechanical.
+
+
+=== Sample Fringe Powers
+
+Note that the names given to these powers are strictly for convenience and reference within the game. Some teachers may use similar or very different names.
+
+The powers below are only examples. Alter or ignore them as you wish, and be sure to invent others in your series.
+
+
+==== Aura Sight
+
+The ability to see people's auras. The color of the aura varies with the mental and physical state of the person. By reading auras one can see someone hiding in the darkness, tell when someone is lying, tell when there is psychic interference. Most people roll 2 dice to resist this power. One can see auras better up close and when one knows or at least is able to talk to someone. An Aura Seer may also be able to see an aura around a particularly powerful (or malevolent) magical item or locus.
+
+
+==== Healing
+
+Directs healing energy to damaged or diseased areas, improving the natural curative powers of the subject. When curing damage, the roll on the trait equals the number of points that the character recovers. If the wounded character has not yet recovered half his lost hit points as per the recovery rules, the healer heals twice the points rolled on the dice. It takes about 30 seconds (5 rounds) for the healing to be complete, and the healer must be in contact with the injured party during that entire time. When used to heal diseases and such, the healer must roll against a Difficulty appropriate to the disease. Below are guidelines for diseases and such. A healer who rolls all 1's when trying to heal someone of a disease acquires that disease himself, even if the disease is not normally communicable. In addition, the healer loses the ability to heal until that disease itself is cured. For an incurable disease, this event can mean losing one's power until another healer heals him.
+
+[horizontal]
+Common cold, cold sores, acne:: 5
+Addiction to nicotine or cocaine, pneumonia:: 10
+Leprosy, cerebral palsy, Alzheimer's, cancer:: 15
+
+
+==== Hunches
+
+This power may come from unconscious psychic sensitivity, the attention of a spiritual guardian of some kind, or an innate ability to move with the serendipitous forces of the universe. Roll to get irrational feelings of what you should do or hints at secrets you cannot otherwise know. Having this fringe power makes you very vulnerable to psychic manipulation.
+
+
+==== Lightning Strike
+
+Channels energy through nerves, muscle, skin, and bone, making them unnaturally fast and strong (faster, indeed, than the actual electrochemical nerve signals sent by the brain).
+
+Add your dice with this ability to attack rolls when striking with your bare hands, feet, or other natural implement of destruction.
+
+
+==== Mind Scan
+
+Called "`tuning in`" by its less traditional masters, this discipline involves sensitizing one's own mind to the constant psychic chatter put out by other sentient beings to the point that one can decode another's thoughts.
+
+When scanning for thoughts, the mind scanner can find thoughts within his dice roll in meters. If someone wants to see if someone is lurking in the closet before opening the door, he need only roll a 1, but scanning an apparently empty building is beyond all but the grandmasters of this discipline.
+
+To scan a mind for actual thoughts, a mind scanner must be able to see or otherwise sense the target. If the target is in sight, the range for the power becomes 2 meters times the roll. If the roll is high enough for the range, compare the mind scanner's roll to the target's. If the character beats the target's roll, he learns what that person is thinking. If the character rolls double the target's roll, he finds clear information, as well as any related memories or ideas.
+
+For example, an average scanner tries to scan someone across a bar for a computer password. The target is 7 meters away. A roll of 3 or lower means that contact is not even made. A roll of 4 or higher means contact is made, but the target gets a resistance roll (2 dice, unless he has some unusual traits).
+
+
+==== Pre-Reaction
+
+Channels energy backward in time to stimulate motor nerves previous to perceiving a danger.
+
+The character may roll to respond to something just before it happens, such as dropping to the ground just before an explosion goes off. If he would normally have a chance to respond to something, then he can add these dice to his normal roll. (E.g., if a car is hurtling toward him and he needs to jump out of the way, he would normally get to make a roll based on his reflexes or speed; he could add Pre-Reaction dice to the roll.) If he would not normally get a roll, then he can still use these dice, but only these dice. (E.g., a poisoned dart thrown from behind by a silent assassin would not normally allow a character to dodge it, but he could use these dice to do so.)
+
+One cannot pre-react to an event one would not notice. If someone points an invisible, intangible ray in a character's direction, he cannot prereact to it because his future self will not notice it and therefore cannot send energy back to his present self to protect him.
+
+==== Roaming Eyes
+
+Allows one to see other places or times. Each Eye Roamer can see either in the present at a distance or in the past but in the same location.
+
+[horizontal]
+Present, distant:: The Eye Roamer must have some connection to the place being observed, such as knowing someone there, having been there and checked it out, etc. The Eye Roamer can specify viewing the surroundings of a person or object, or he can view a certain area. Range is the roll times 100m (or more, if there is a very good connection to the person or place). Duration is the roll in rounds.
+
+Past, here:: The Eye Roamer can see into the past up to one hour times the roll. For very important or emotionally-laden events, especially if the Eye Roamer knows something about it, the distance into the path may increase to the roll in days, weeks, or even centuries.
+
+Other senses:: Some psychics send their ears (or even noses) the way Eye Roamers send their eyes.
+
+
+==== Sending
+
+Sending your thoughts to the minds of others. The character must know the recipient well or see him in order to Send. The recipient "`hears`" the thought as if it were spoken (but knows it's only "`in his head`"). The die roll for this power represents the number of minutes one can continue sending, and must be higher than the target's resistance roll (if the target chooses to resist). The die roll also determines range: the roll times 10 meters if the Sender does not know the target, or the roll in kilometers if the Sender knows the target well.
+
+
+==== Skin of Iron
+
+By developing an inflexible image of his own physical body, a character can conduct his energy so as to maintain this image in the face of injury. Blows of all kinds must overcome the physical resistance of the flesh as well as the paraphysical resistance offered by the energy.
+
+The total on the dice is subtracted from damage on each blow you take, like normal armor. The highest number among the dice equals the number of blows you can absorb before Skin of Iron wears off (with a maximum duration of 10 minutes). If you are unhappy with your roll, you may use more psychic dice and roll again, taking the new result only if it is higher.
+
+
+==== Telekinesis
+
+Moving, lifting, and manipulating objects at a distance. The number rolled equals the number of kilos that can be pushed along a surface, the distance in meters over which one can use the power, the number of seconds one can maintain the power. The object to be affected must be seen. The telekineticist can move the object about, spin it, or otherwise manipulate it. The telekineticist can also lift objects in the into air, up to 100g times his roll (or one-tenth the weight he can push).
+
+
+==== Telekinetic Punch
+
+Creates a burst of explosive force that can break, topple, or harm objects or people. The roll equals damage done and the distance over which the force can act. If used to break in a door or perform other feats of strength, the roll is equivalent to a normal strength roll.
+
+
+==== Telepathy
+
+Essentially a combination of Mind Scan and Sending, but weaker than either. The Telepath cannot scan for thoughts like a Mind Scanner can. He can read minds, but only at a range equal to the roll in meters. He can send thoughts, but the range is the roll times 5 meters (for people in sight) or times 500 meters (for out of sight, works with well-known friends and acquaintances only). Unlike the Sender, a Telepath can have a two-way conversation with a target, but only if the target wills to respond.
+
+
+== Magic
+
+There are hundreds of different styles of magic from various cultures and traditions around the world, but for the sake of mechanics they can be broken down into two types: free form and spell-casting.
+
+Free form magic is essentially equivalent to fringe powers. The better one's roll, the more effect the magic has. You can use fringe powers like those described above to represent free form magic.
+
+Spell-casting is the use of specific spells that have pre-determined effects. Your roll determines whether the spell takes effect, not its power.
+
+The GM may wish to limit who can learn spells at all, or limit PCs' access to spells and magical knowledge, depending on the role you wish magic to take in your series. You may apply any or all of the following restrictions:
+
+[horizontal]
+Intense Study:: Only years of study, preferably with a learned master, can make one capable of casting even the simplest spell. This restriction effectively nixes PCs learning spells, unless they begin the game as wizards.
+
+Rare Talent:: Only few people can learn magic at all (one in six? two in six?). You may rule that anyone who has developed another kind of fringe power already is unable to learn magic because their supernatural potentiality has been corrupted.
+
+Rare Resources:: Resources are hard to come across. Spell books may be written in an ancient or foreign language, or in code, so even if PCs find them, they may be worthless to them. The few wizards who exist probably do not admit to their nature and certainly will not accept students who have not proved their utmost loyalty and discretion. Magic becomes something special if it is something rare.
+
+
+=== Learning a Spell
+
+When studying a spell in order to learn it, a character must spend a week studying at least 2 hours per day and sacrifice 5 experience dice. He then rolls a single die. If the number at least equals the spell's level, he has learned the spell. If not, he records a "`1`" on his character sheet to represent the number of dice he has rolled to learn the spell. He may then spend another week studying and sacrifice another 5 experience dice, after which he rolls 2 dice. Again, if the roll at least equals the spell's level, he has learned it. Otherwise he he changes the "`1`" to "`2.`" representing how far he has progressed in studying the spell. He repeats this process, rerolling with one more die for each week and 5 experience dice expended until he gives up or learns the spell. If the character does not have a psychic pool when he learns a spell, he gains 1 shot in that pool.
+
+If the character botches on any roll to learn a spell, bad things can happen.
+
+For example, suppose a character tries to learn the 12th level spell, Unswerving Arrow. The GM has not told him the level of the spell, but she has said that he can tell that it's pretty difficult. He begins studying the spell (actually spending four hours per day, since he does not have a teacher to tell him that the extra two hours are wasted), and at the end of a week he expends the experience dice and rolls a single die. He gets a 5, not good enough. The GM says that he thinks he is getting the hang of it, but he still can't manage the spell. He keeps trying, and after another week and another 5 experience dice, he rolls 2 dice, this time getting a 4 — failure. After two more weeks and 10 more dice, he rolls (on four dice) a 13, good enough. The GM now informs him that he knows the spell and that he has one shot in his Psychic Pool. He immediately takes two more dice from his experience pool and gives himself a second shot in the psychic pool. He has now spent 22 dice from his experience pool, and he can cast his spell twice per day.
+
+
+=== Casting a Spell
+
+To cast a spell, a character expends one shot from the psychic pool. Under normal conditions, the spell always works. The GM may require rolls for targeting the spell correctly or maintaining concentration, depending on the spell, the situation, and her discretion.
+
+Remember that many magicians use free-form magic, which works like standard fringe powers. Spell-casting proper, however, is very reliable.
+
+The target may get a resistance roll against spells that directly affect the mind or body, in which case the level of the spell always counts as its "`strength.`" A resistance roll at least equal to the spell's roll generally resists the spell's effects.
+
+
+=== Sample Spells
+
+There are an incredible number of spells available for those who can find them and learn them, so do not worry about a definitive spell list. Instead, invent interesting spells as they are needed. If the characters discover a wizard's spellbook, it might have four spells in it. Invent those spells. If they encounter a wizard, she may know seven spells. Invent those spells as you need them. Like fringe powers, spells should be individually crafted for the episodes in which they appear.
+
+As magic spells have developed over the years, wizards have learned that the best way to kill someone outright is with a gun or other simple weapon. The spells that are most common, therefore, are those that do not replicate a gun's effect. Spells that have weird effects (not easily reproducible by technology) are much more common that those that simply cause damage.
+
+Below are sample spells to show appropriate levels for spells of various power.
+
+
+==== Lurking Chains, Level 3
+
+Creates the sound of clanking chains in thin air anywhere within 20m of the caster. The sound travels about slowly (about 2m/round) in random directions, but it tends to follow hallways and such. (It does not travel through walls.) The clanking lasts ten minutes. Wizards use it as a distraction.
+
+
+==== Blessed Black, Level 6
+
+Extinguishes all sources of light within 10m of the caster for one minute, though the caster can also end the spell at will.
+
+
+==== Serpent's Tongue, Level 9
+
+Makes the caster's words more effective, whether they are used to seduce, intimidate, convince, or persuade (bonus die on all appropriate rolls). Lasts 1 minute.
+
+
+==== Grip of Stone, Level 12
+
+Paralyzes one person or animal within 15m. The target can roll strength or a similar trait to resist, escaping the effects of the spell if the roll at least equals the wizard's roll to cast the spell. Paralysis wears off within half an hour.
+
+
+==== Ring of Gyges, Level 15
+
+Makes the caster invisible for 10 minutes. Dogs tend to be disturbed by the caster's presence. The name refers to a ring of invisibility from Greek myth.
+
+
+==== Seven Shields of Glory, Level 18
+
+Creates seven invisible shields that protect the caster. All weapons bounce harmlessly away from him as soon as they strike within 10 cm of his body. For a split-second one can see a shimmering shield half a meter in diameter appear to deflect the weapon. If the wizard is struck by several attacks at exactly the same instant and the seven shields cannot guard against all the blows, some will get through. The spell lasts an hour.
