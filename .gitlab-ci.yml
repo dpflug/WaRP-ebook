@@ -20,16 +20,17 @@ html:
 #  script:
 #    - asciidoctor-epub3 -D output -a ebook-validate WaRP.adoc
 
-ebook:
-  stage: build
-  before_script:
-    - apt-get update -qq ; apt-get install -y -qq calibre
-  dependencies:
-    - html
-  script:
-    - ebook-convert WaRP.html WaRP.epub
-    - ebook-convert WaRP.html WaRP.mobi
-  artifacts:
-    paths:
-      - WaRP.epub
-      - WaRP.mobi
+# Disabled until I figure out dependencies :)
+#ebook:
+#  stage: build
+#  before_script:
+#    - apt-get update -qq ; apt-get install -y -qq calibre
+#  dependencies:
+#    - html
+#  script:
+#    - ebook-convert WaRP.html WaRP.epub
+#    - ebook-convert WaRP.html WaRP.mobi
+#  artifacts:
+#    paths:
+#      - WaRP.epub
+#      - WaRP.mobi
