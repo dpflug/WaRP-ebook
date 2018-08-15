@@ -18,4 +18,4 @@ ebooks:
 test_epub:
   stage: test
   script:
-    - asciidoctor-epub3 -D output -a ebook-validate WaRP.adoc
+    - asciidoctor-epub3 -a ebook-validate WaRP.adoc
