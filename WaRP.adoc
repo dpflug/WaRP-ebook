@@ -1,17 +1,21 @@
 = WaRP System =
-
-:version-label: 1.0
-:revmark: (C) John A. Nephew. Published under license by Trident, Inc. d/b/a Atlas Games
+Jonathan Tweet; Robin D. Laws
+:revnumber: 1.0.1
 :icons: font
 :toc: left
-:toclevels: 2
-:doctype: book
 :sectanchors:
+:sectids:
 :sectlinks:
-:summary: Authors Jonathan Tweet with Robin D. Laws; Editor Michelle Nephew. WaRP System Logo, Copyright 2012 Trident, Inc. d/b/a Atlas Games; Designer Michelle Nephew. Format conversion by David Pflug.
+:sectnumlevels: 3
+:sectnums:
 
 
-== Legal Information
+[colophon]
+== colophon
+
+(C) John A. Nephew. Published under license by Trident, Inc. d/b/a Atlas Games
+
+Authors Jonathan Tweet with Robin D. Laws; Editor Michelle Nephew. WaRP System Logo, Copyright 2012 Trident, Inc. d/b/a Atlas Games; Designer Michelle Nephew. Format conversion by David Pflug.
 
 Permission to copy, modify, and distribute the WaRP System Reference Document ("`SRD`") and WaRP System Logo ("`Logo`") is hereby granted through the use of the Open Game License Version 1.0a. The SRD and Logo are Open Game Content as described in Section 1(d) of the License. The most recent versions of the SRD and Logo may be downloaded at www.atlas-games.com/warp OPEN GAME LICENSE Version 1.0a The following text is the property of Wizards of the Coast, Inc. and is Copyright 2000 Wizards of the Coast, Inc ("`Wizards`"). All Rights Reserved.
 
