@@ -6,7 +6,7 @@ ebooks:
     - asciidoctor WaRP.adoc
     - asciidoctor-pdf WaRP.adoc
     - asciidoctor-epub3 WaRP.adoc
-    - asciidoctor-epub3 -a ebook-format=kf8 WaRP.adoc
+    - asciidoctor-epub3 -a ebook-compression=2 -a ebook-format=kf8 WaRP.adoc
   artifacts:
     paths:
       - WaRP.html
