@@ -1,0 +1,190 @@
+= Firearms
+
+== Firearm Attacks
+
+Use the rules for ranged weapons, using the ranges and damage factors on the table below. Note that encumbrance from armor does not affect firearm attack rolls.
+
+.Firearm Ranges
+[%autowidth, cols="<s,^,^,^,^,^"]
+|===
+| 5+^| Dice for Defense Roll
+
+| Firearm | *1* | *2* | *3* | *4* | *5*
+| Pistol | 2m | 10 m | 20 m | 40 m | 80 m
+| SMG | 2m | 25 m | 50 m | 100 m | 200 m
+| Rifle | 2m | 50 m | 100 m | 200 m | 400 m
+| Shotgun* | 4m | 8m | 16 m | 32 m | 64 m
+|===
+
+.Damage Factors: Firearms
+[%autowidth, cols="<,^"]
+|===
+| Light handgun or SMG | X3
+| Medium handgun or SMG | X4
+| Large handgun or SMG | X5
+| Light Rifle | X6
+| Heavy Rifle | X7
+| 12ga shotgun | X10 footnote:[Divided by "`distance dice`" from the Firearm Ranges table above.]
+|===
+
+
+== Armor vs. Gunfire
+
+For game purposes, there are two types of armor: regular armor (as described earlier, in the Combat section) and bullet-proof armor (described below).
+
+
+=== Regular Armor
+
+Regular armor, described earlier, is only half as effective (round down) versus gunfire. If you roll 5 points of protection for your reinforced jacket, it only stops two points of damage against a gun.
+
+
+=== Bullet-Proof Armor
+
+The rating for bullet-proof armor represents the number of dice rolled when hit by a bullet or shotgun. Divide the damage by this number. (On a roll of a 1, the armor has no effect, meaning that the bullet hit an area not protected by the armor.)
+
+Against normal attacks, such as knives and punches, subtract the armor's rating from the damage.
+
+For example, if you rolled a 5 for your bullet-proof vest, you would divide the incoming damage by 5. If someone stabbed you with a knife, however, you would only subtract 1 point from the damage.
+
+When a character wears both types of armor, handle the regular armor first, and then the bullet-proof armor.
+
+Bullet-proof armor has a "`b`" by its rating in order to differentiate it from normal armor.
+
+.Bullet-Proof Armor Types
+[%autowidth, cols="<,^,^"]
+|===
+| Armor | Rating | Penalty?
+
+| Bullet-proof Vest | 1b | no
+| Bullet-proof Suit | 2b | no
+| Military Body Armor | 3/2b footnote:[First number is regular armor, second is bullet-proof armor.] | yes
+|===
+
+
+== Easy Gunfire Example
+
+Two characters have unwittingly cornered a desperate operative in a docked ship. The operative, armed with a .22 revolver, fires a shot at the first character from his hiding place. He is within short range (8m away), so the character gets two dice for his defense roll. The operative is a crack shot (4 dice) and has leisure to aim (bonus die). The GM rolls a 16 versus the character's 6, that's a difference of 10 points, times 3 for the damage multiplier of a small caliber pistol, is 30 points of damage. The character is wearing a reinforced jacket and rolls 3 for the armor, but it's divided by 2 because regular armor doesn't work too well against bullets, so the armor stops only 1 point of damage. The character takes 29 points of damage, dropping him to -7. Since 29 points can kill the average person outright, the GM rules that the shot was a solid chest hit, and that the character could be dead. (She won't bother to rule precisely on his state of injury until the second character takes the time to check him out.)
+
+The second character breaks for the door, weaving as she goes. The GM rules that the operative is a good enough shot to fire on her before she moves out of short range, so she only gets two dice for distance, but she gets a third die for moving and four bonus dice for dodging. (The average character gets 2 bonus dice, but the character is extremely agile.) The GM rolls four dice and gets 17.
+
+The player rolls seven dice and takes the best three: 15. Her character takes 6 points of damage. Luckily, she is secretly wearing a bullet-proof vest, and she rolls 4 on her one die. Six divided by 4 is one and a half, rounded off is 2 points of damage. With a nasty bruise, the character hustles out of the room.
+
+As you see, a revolver using standard ammunition isn't very different from any other weapon, except for the new armor rules. More advanced firearms and specialized ammunition, however, requires some special rules.
+
+
+== Gunfire Options
+
+Firearms of various types allow different firing tactics.
+
+
+=== Revolvers
+
+You can get one good shot per round with a revolver.
+
+
+=== Automatic Pistols
+
+You can get up to two shots per round, but the second receives a penalty die due to recoil from the first.
+
+
+=== Sub-Machine Guns
+
+Each round you can fire two single shots, one three-round burst, or one full auto shot (see below). If firing two single shots, you take a penalty die on the second due to recoil.
+
+
+=== Rifles
+
+You can fire one shot per round.
+
+
+=== Automatic Rifles
+
+You can fire up to two shots per round, one three round burst per round, or fire at full auto (see below). If you fire two single shots, you take a penalty die on the second.
+
+
+=== Three Round Burst
+
+A burst sends more bullets at the target, increasing the chance to hit, but the recoil on the second and third bullets makes them less accurate than the first. The farther the target is from the characters, the more detrimental this recoil is to the accuracy of the second and third bullets. A burst adds a bonus die to the roll to hit regardless of range. At point-blank or close range, it also adds +1 to the weapon's damage multiplier, but not at medium, long, or very long range. These modifiers represent the increased likelihood to score a hit as well as the probability that the victim will be hit by more than one bullet. If the resulting damage is low, assume that only one bullet hit. If the damage is very high, assume all three hit. If medium, assume two of the three have connected.
+
+
+=== Full Auto, One Target
+
+Full auto puts a lot of bullets in the air, but the massive recoil makes the extra bullets considerably less effective in hitting a single target. After the first few shots, the recoil is so great that the extra bullets have relatively little effect. Most of them go astray. Still, it is a little better than the burst. Full auto is most useful for pinning down the enemy or messing up a large number of targets. It is also the most effective method known for wasting huge amounts of ammunition. At point blank or close range, full auto trained on a single target provides a bonus die to hit and +2 to the damage multiplier. At medium range, take a bonus die and add +1 to the damage multiplier. At long or very long range take a bonus die, but there is no addition to the multiplier. You must have at least 10 rounds in your clip to qualify as "`full auto.`"
+
+
+=== Full Auto, Spread
+
+You can target one person for every five bullets fired. You cannot skip a target between two people who you do target. For instance, if your friend is between two enemies that you fire on, you must target the friend as well. At point blank range you receive a bonus die on each attack and +1 to the damage multiplier. At close range you receive a bonus die on the attack but no modifier on the damage factor. At medium range, you receive no bonus, other than the ability to target several opponents at once. At long range, you receive a penalty die against every target. At very long range, you receive two penalty dice against every target. Full auto does a lot of collateral damage as stray bullets hit the area around the targets.
+
+
+=== Shotguns
+
+One shot per round. Divide damage by the number of defense dice rolled for distance. For example, at 10m the defender gets 3 dice for distance, so you divide your damage by 3.
+
+
+.Gunfire Tactics Summary
+[%autowidth, cols="<,^,^,^,^,^"]
+|===
+| 5+^| Range
+
+| *Tactic* | *Point Blank* | *Close* | *Medium* | *Long* | *Very Long*
+| 3 round burst | b/+1 | b/+1 | b | b | b
+| full auto, 1 target | b/+2 | b/+2 | b/+1 | b | b
+| full auto, spread footnote:[Target one character per 5 bullets fired.] | b/+1 | b | — | p | 2p
+|===
+
+.Key to Gunfire Tactics
+[horizontal]
+b:: bonus die on attack roll
+p:: penalty die on attack
+2p:: two penalty dice on attack
++1:: +1 to damage multiplier
++2:: +2 to damage multiplier
+
+
+== Ammunition
+
+In addition to standard rounds, most firearms can take specialized ammunition.
+
+
+=== Armor-Piercing Rounds
+
+Armor-piercing rounds do half normal damage, but armor is much less effective versus an armor-piercing round. Subtract the rating of the armor from damage, whether the armor is bullet-proof or normal. For example, a bullet-proof suit would provide 2 points of protection, while a military armor would provide 5 points of protection, 3 for its regular armor component and 2 for its bullet-proof component. This reduction in armor protection comes off the damage before it is divided by 2.
+
+For example, if the operative in the earlier example had been using armor-piercing rounds, the 29 points of damage he did to the first character would have been divided in half to 15 points. The second character's armor, however, would have reduced the damage only 1 point, rather than dividing it by 4, so she would have taken 5 points instead of 2.
+
+
+=== Hollow Point Rounds, Safety Slugs
+
+Hollow point rounds sacrifice penetrating power for extra damage and safety. (They will not pass through the body, allowing one to strike an enemy with less chance of the bullet traveling through the body and striking someone else, perhaps after ricocheting off a bone or two.) The damage factor for a hollow point or similar bullet is +2 more than normal, but armor of all kinds has twice its normal effect.
+
+If the operative had been using hollow points, his damage factor would have been X5 instead of X3, and he would have done 50 points of damage to the first character. The character's roll of 3 for his armor, however, would have been doubled to 6, so he would have suffered only 44 points total, just enough to kill him. The bullet hitting the second chracter would have done 10 points of damage instead of 6, but her roll of 4 would have been doubled to 8, so the bullet would have only done 1 point of damage. (Ten divided by 8 is 1.25, which rounds off to 1.)
+
+
+.Armor/Attack Summary
+[%autowidth, cols="3*<"]
+|===
+| 2*^| Armor
+
+| *Attack* | *Normal* | *Bullet-Proof*
+
+| Normal | full | minimum
+| Bullet | half | divide
+| Armor Piercing footnote:[Divide damage from armor piercing bullets by 2 after armor points have been deducted.] | minimum | minimum
+| Hollow Point footnote:[Hollow point bullets have +2 added to the damage factor.] | double | divide double
+|===
+
+.Key
+[horizontal]
+divide:: divide damage by roll
+divide double:: divide damage by double the roll
+double:: subtract double the roll from damage
+full:: subtract full roll for the armor from damage
+half:: subtract half the roll for the armor from damage
+minimum:: subtract number of dice (not roll itself) from damage
+
+For example, a reinforced jacket (rating: 1) would stop 1 die of damage from a knife, 1 die divided by 2 from a bullet, 1 point from an armor piercing round, or 1 die times 2 from a hollow point shell.
+
+A bullet-proof vest (rating: 1b) would reduce normal damage by 1 point, would divide bullet or shotgun damage by the number rolled on 1 die, would reduce damage from an armor-piercing round by 1 point, and would divide safety slug damage by double the roll on a die.
+
+A reinforced jacket over a bullet-proof vest would stop 1 die +1 point from normal attacks. Against a bullet, it would first stop 1 die divided by two (for the jacket), and then divide the remaining damage by a roll on 1 die (for the vest). Against an armor-piercing round, it would reduce damage by 2 points, one for the jacket and the other for the vest. Against a hollow-point round, it would first subtract double the roll on one die (the jacket), and then divide the result by double the roll on one die (for the vest).

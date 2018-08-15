@@ -1,0 +1,207 @@
+= Creating a Character
+== Concept
+
+First, get an idea of the character you will portray. Have a good idea of who you want to be before you start any details. An example concept might be, "`A psycho-killer commando who escaped from CIA brain-washing program when the programming failed.`"
+
+
+== Traits
+
+Each character has four *traits*. One trait is the character's *central trait*, usually defining who that character is. Two traits are *side traits*, additional skills or characteristics. Of the above three traits, one is chosen as *superior*. The last trait is a *flaw* or disadvantage. Each of the four traits entails a *sign*, some visible or tangible aspect of that trait.
+
+
+=== Central Trait
+
+First, you have one central trait, essentially your identity — who you are, what you do. This trait can take into account a variety of aptitudes, skills, or characteristics. When you, as a player, describe your character, you are likely to use this trait as the central concept. For example, "`I'm a model,`" or "`I'm a former secret agent.`" If you want to be something weird, this trait must cover that identity.
+
+A central trait includes the name of the trait followed by a description, then in parentheses sign(s) that are associated with the trait. Numbers at the end of the description indicate the number of dice that would be assigned to that trait normally (the first, lower number) and how many dice would be assigned if it is the character's *superior trait* (the second, larger number; see later for an explanation of superior traits). If the scores listed are "`4/6,`" this represents higher than normal scores for "`*narrow*`" traits. See that optional rule later in this section.
+
+An example central trait might be:
+
+[horizontal]
+Military Background:: Includes fighting bare-handed and with a variety of weapons, first aid, keeping cool under fire, and possibly one specialty field, such as mechanics or demolitions. (Wears camo clothes, or battle scars) 3/4
+
+If you want to have an unusual character, perhaps the kind of thing that does not exist in the real world (like an alien), you must take that trait as your central trait. Give the trait a name and description, being sure to be clear to the GM what skills, abilities, and characteristics this trait covers. If you have a weird, unusual power, the GM may give you a "`psychic pool,`" which represents how many times per day you can use that power. This pool may contain 3 shots (uses per day), or you can roll a die to see how many shots it contains. (If you have several fringe powers, you can roll the die once for each and take the highest roll.) GM rules for fringe abilities are found later in this document.
+
+
+=== Unknown Attributes
+
+An interesting way to speed up character creation and bring some mystery to the process is to identify certain attributes as unknown to you and to the character. For example, you might be an escapee from an experimental mental illness treatment that has given you powers that you don't even know much about yet. In that case, tell your GM that you want one or more of your traits undefined at the start. Or your motivation might be to follow certain clues, the significance of which you do not yet fully understand. Your GM might well appreciate the freedom that this tactic gives her in manipulating your character into the plots that she will lay for you and your fellow players.
+
+
+=== Side Traits
+
+Once you have your central, identifying trait chosen, chose two *side traits*. They may or may not be related to your central trait. Unlike the central traits, these side traits are very specific, representing discrete characteristics or skills.
+
+Just because a trait is your "`side trait`" does not mean it is insignificant to your character. For example, a professor with the side trait of "`hack writing`" might be pursuing her writing career, and her attempts to gain inspiration for her fiction may be more important in play than her teaching career. Indeed, she may be better at writing than teaching.
+
+A side trait includes the name of the trait followed by a description, then in parentheses sign(s) that are associated with the trait. Numbers at the end of the description indicate the number of dice the character receives for a normal and *superior* version of that trait, respectively. If the scores listed are "`4/6,`" this represents higher than normal scores for "`*narrow*`" traits. See that optional rule later in this section.
+
+An example side trait might be:
+
+[horizontal]
+Tough:: Resist poisons, pain, and fatigue. (Big-boned) 3/4
+
+Any unusual type of power, usually called "`magical`" or "`psychic,`" is a fringe power. Most likely you have a "`psychic pool,`" representing the number of times per day you can use this power. You can have 3 shots in your pool, or roll a die to determine the number of shots. If you have several fringe powers, you can roll the die once for each and take the highest roll. Give yourself a side trait with the name and description of the power. The sign for a fringe power depends on the nature of the power, and its dice scores are usually 1/2. GM rules for fringe abilities are found later in this document.
+
+
+=== More About Traits
+
+The GM looks over your traits and may veto or edit any that she judges to be out of order. She'll probably allow traits like "`Exceptionally tough,`" but might disallow "`Completely impervious to all manner of attack, damage, threat to life, or heartache.`"
+
+Take care in naming your trait. Make each unique. If your character is to have a way with words, is she "`well-spoken,`" "`manipulative,`" or "`silver-tongued`"? While the distinctions among terms may be slight, they affect your perception of the character and can affect the character's abilities in special circumstances.
+
+
+=== Scores for Traits
+
+Now you have your three positive traits: one central trait and two side traits. Next, you must assign a score to each. The score represents how many dice you roll when using the trait. Two factors determine your score for a given trait: whether it is "`superior`", and whether it is the kind of trait that most people normally have. (See also the optional rule for "`narrow`" traits.)
+
+First, you choose one of your three traits to be *superior*. Choose the one you like the most or think is most important to your character.
+
+Most traits are better or worse versions of traits the average person has. For instance, a strong character is stronger than average, but even the average person has some strength. Some traits, however, are *unusual* or *technical*, and the average person has no skill (0 dice) in that trait. If this is the case, a character with this trait has fewer dice than normal, to represent the fact that he would normally have no dice at all in that trait. Medicine, channeling, and quantum physics are examples of technical or unusual traits.
+
+See the charts below for specifics. Below the label for the kind of trait are a few examples of traits that fall in that category. "`Superior`" indicates your score if this trait is your superior trait. "`Good`" indicates your score if you have chosen the trait, but not as your superior trait. "`Average`" means the score for someone who does not have that trait at all.
+
+If the trait is not related to a score, make sure you and the GM agree to what this trait means.
+
+.Standard Trait -- Stealth, strength, straight-facing
+[%autowidth, cols="2"]
+|===
+| Superior | 4 dice
+| Good | 3 dice
+| Average | 2 dice
+|===
+
+.Technical or Unusual Trait -- Doctor, fringe powers
+[%autowidth, cols="2"]
+|===
+| Superior | 2 dice
+| Good | 1 die
+| Average | 0 dice
+|===
+
+
+=== Optional Rule: Narrow Traits
+
+Some players may wish to invent PCs with traits that are important to characterization but are of marginal use in the dangerous game world. For example, a character may wish to be a painter. This trait is nowhere near as useful as "`good fighter,`" "`tough,`" and so forth, so the GM may award the PC with extra dice in that score, to compensate partially for the trait's marginal usefulness. Traits such as "`chess,`" "`folksinger,`" and "`telling ghost stories`" may be considered narrow. No fighting skill counts as "`narrow.`" For "`narrow`" traits, use the charts below to see how the scores work:
+
+.Narrow Trait -- Public speaking, cooking
+[%autowidth, cols="2"]
+|===
+| Superior | 6 dice
+| Good | 4 dice
+| Average | 2 dice
+|===
+
+.Narrow & Technical Trait -- Helicopter pilot, dentistry
+[%autowidth, cols="2"]
+|===
+| Superior | 4 dice
+| Good | 2 dice
+| Average | 0 dice
+|===
+
+
+=== Flaws
+
+Once you have determined your first three traits (the central trait and two side traits), decided which of those three is your superior trait, and assigned scores appropriately, it is time to choose a flaw. A flaw is any disadvantage that your character will have in play. It must be important enough that it actually comes into play and makes a difference. Ideally, your flaw should be something directly related to your central trait or side traits, or to your character concept, rather than just a tack-on disadvantage.
+
+Often a flaw causes one to roll penalty dice in relevant situations. Other flaws cause problems that the player simply must roleplay.
+
+A flaw includes the name of the trait followed by a description, then in parentheses sign(s) that are associated with the trait.
+
+An example flaw might be:
+
+[horizontal]
+Prone to Reckless Violence:: When frustrated, there is a one in six chance that the character will fly into a fit of uncontrollable rage. (Sullen demeanor)
+
+
+=== Signs
+
+For each trait, including your flaw, describe one *sign* related to it that others can notice. Use these signs when describing your character. That way you can tell other players, "`I'm a tall, slim man who walks with a confident gait and wears a strange gold medallion around his neck.`" Isn't that better than, "`I'm agile; I come from a wealthy British family; and I dabble in magic`"? Some signs are not always apparent. They might appear when you use the trait in question, or only occasionally.
+
+
+== Hit Points
+
+Your "`hit points`" represent the amount of punishment, damage, and pain you can take and still keep going. The more hit points you have, the harder you are to take down.
+
+Hit points are determined by any trait you may have that is relevant to fighting, toughness, strength, mass, or other aspect of your character that indicates the ability to take damage. If this trait is ranked as 4 dice, your hit points are 28. If ranked as 3 dice, your hit points are 21. Lacking such a trait, your hit points are 14. (You do not have fewer than 14 hit points for having a trait like "`weak.`")
+
+You get 7 points per die, and that relationship makes it easy to roll your hit points randomly, if you want. Simply roll double the number of appropriate dice (e.g. 6 dice for a trait ranked as 3 dice), and your total is your hit points.
+
+If you have more than one trait that could affect your hit points, roll for each trait separately and take the highest roll for your total. For example, if you are a 4 die martial artist and also have 3 dice strength, you could roll eight dice and six dice, using whichever roll results in the higher figure.
+
+If you have two traits related to hit points, you can take one of them as "`average.`" Don't roll for it at all; just take the hit points listed above. Then roll for the other, using the result only if you actually roll over the average score for the first trait. The strong martial artist in the example above could take 28 points for his 4 dice of martial arts and then roll six dice for being strong, taking whichever result is higher. Or he could take 21 points for being strong and then roll eight dice for the martial arts, again taking the higher result. To be fair, you must decide whether you are rolling or taking the average hit points for any trait before you begin rolling for any others. The strong martial artist could not first roll the six dice for being strong and then decide whether to roll the eight dice for martial arts ability.
+
+Once you've determined your hit points, attach a descriptive word or phrase to them to represent what they mean for your character. For instance, a strong character might call his "`brawn,`" indicating that his resilience in the face of physical punishment comes from his welldeveloped musculature. Another character's hit points might be "`guts,`" relating to sheer internal toughness and resolve, rather than to any purely physical trait.
+
+Descriptions of hit points also give your character more personality. A character who can take a lot of punishment because he is determined is conceptually different from someone who keeps going because he is too big (or too stupid) to notice his wounds.
+
+The GM can also use your description of your hit points to bend the rules to fit an unusual situation. For instance, imagine a weapon that stimulates pain nerves on contact. A big guy's hit points might not be too effective against the attack, since increased size might just mean he has more pain nerve endings; but someone whose hit points come from being determined might be able to shrug off the pain and keep going. (In this example, the GM can either penalize the big guy to keep his extra hit points from protecting him, or give a bonus to the determined character to represent his superior resistance to pain.)
+
+
+== Experience Pool
+
+As a beginning character, you have one die in your experience pool. This means that once per game session you can use this die as a bonus die on any roll you make, improving your chances for success. Once you use this die, you cannot use it again for the rest of the session.
+
+The experience die represents your experience, will, wits, and special circumstances. You must justify the use of the die in these terms. For example, to block a knife thrust you might say, "`This has got to be the third knife-fight I've been in this week, and I'm getting used to it.`" If the GM does not tell you what a roll is for, you cannot use an experience die to modify it because you cannot justify its use.
+
+As the series progresses and you become more experienced, the GM will award you more dice for your experience pool to represent the experience gained. That means you can improve more of your rolls each session, but you cannot use more than one die on a single roll. Once a die is used, you may not use it again for the rest of the game session.
+
+As you gain more dice in your pool, you can "`trade them in`" for improved traits. See the rules for experience later in this section
+
+
+=== Optional Rule: Multiple Experience Dice
+
+The GM may allow you to use more than one experience die, but only if you can give one good justification for each die that you intend to use. You only use a bonus die for each justification that the GM accepts, and the GM may refuse to use this optional rule altogether.
+
+
+=== Awarding Experience Pool Dice
+
+Awarding these dice is entirely up to the GM. Use them to pace the progression of play. If you want to slow things down, award few. Awarding few dice puts the emphasis on the real world accomplishments of the PCs. They become powerful mostly through figuring out who to trust, how to get things done, and making a reputation for themselves. If you want the series to move quickly, award plenty of dice. The more dice the PCs get, the better they will be able to handle deeper and more dangerous plots. When in doubt, award the dice.
+
+These are actions for which the GM can award dice to PCs:
+
+* *Doing things.* A full session of talking, lying, being lied to, fighting, sneaking, watching your back, following clues and so forth should be worth a die, unless the PC was generally incompetent.
+
+* *Succeeding at some major task,* such as solving a mystery, neutralizing an enemy, or gaining a hard-won prize.
+
+* *Getting severely torqued,* betrayed, tricked, and jerked around, but surviving to tell about it. "`Experience is what you get when you don't get what you want.`"
+
+* *Executing a brilliant maneuver.* If a PC dumbfounds you by thinking his way out of certain death or manipulating a situation the way a pianist manipulates a keyboard, another die for the pool is a concrete way to acknowledge the feat.
+
+* *Excellent role-playing.* A player who breathes life into a sheet of paper (the PC) adds depth and wonder to the series. Again, awarding a die acknowledges this proficiency.
+
+In general, one die should be awarded for each session of worthy play, plus dice for any exceptional accomplishments. A PC who struggles well, vanquishes a foe he's been after for three sessions running, and imbues his character with energetic personality might get three dice for that one session (one for a session's play, one for defeating his enemy, and one for good role-playing). At the rate of one or two dice per session, it will take a PC about three sessions to develop a new trait. If that's too slow or too fast for your style of play, be more or less generous awarding dice.
+
+
+== Motivation
+
+Choose a motivation for your character. Why have you come here? What do you want out of life? What are you trying to accomplish? The character might not be fully aware of his own motivation. A good motivation inspires your character to action so the GM can use it to involve you in events. The GM might also use the motivation to bring your character into contact and cooperation with the other player-characters. Beware of motivations that will make your character hard to play.
+
+A sample motivation might be, "`To exact revenge on my former CIA handlers.`"
+
+If you pick an easy task, accomplishing it will leave your character without a goal, so be careful with a motivation like this one. Of course, your GM can see to it that this is no easy task.
+
+
+== Secret
+
+Choose some secret, some hidden fact that few others, if any, know about you. Pick a dark secret, if you can, something you desperately want to keep hidden from others. Again, this secret can help you get involved in plots and intrigues.
+
+A sample secret might be, "`My psychosis is barely controlled by my medication.`"
+
+
+== Important Person
+
+Choose one person who was important in your past, and decide how that person was important to you. It could be someone you know personally, or merely someone you admire, even a fictional character.
+
+A sample important person might be your father, who kicked you out of the house when you were sixteen so you could learn to fend for yourself.
+
+
+== Background & Equipment
+
+Fill in all the details you want about your character's background. List the possessions the character has and have some idea of the financial resources he will have. Choose items and finances appropriate to the character concept.
+
+
+== GM Approval
+
+The GM should look over every character before approving it for play. Don't allow any traits that would take control of the series out of your hands and place it in the hands of a single player. Veto or edit it.

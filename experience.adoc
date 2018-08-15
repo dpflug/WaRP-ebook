@@ -1,0 +1,44 @@
+= Experience
+
+Through experience, you can improve your skills or learn new ones. Your experience is represented by your *experience pool*. At the end of every game session, the GM can award bonus dice to the characters who partook in the action, and these dice are added to your experience pool, as previously explained. In addition, you can "`spend`" the dice from your experience pool to buy new skills or improve ones you already have. Each kind of improvement requires a certain number of dice that are permanently lost from your pool and some action in the game world. The GM must approve every trait improvement, and you can improve a trait any time immediately after meeting the requirement.
+
+
+== Developing a New Trait
+
+It costs 5 dice from your pool plus game-world experience to develop a new trait. If the trait is something casual, such as brawling or reading people, you can pick it up without any special training. If it is technical or specialized, such as kung fu or computer programming, you need some kind of training.
+
+Once you have satisfied the need for training (if any) and spent the dice from your experience pool, you have one die better than normal in your new skill. If it is a technical or unusual skill, you have a score of 1 with the trait. If the trait is standard, something most people can do, if not well, then you now have a score of 3.
+
+All such traits developed in this way are the equivalent of side traits. In other words, they are quite specific, not the global traits possible to beginning characters as central traits. You can learn to foil security systems through this method, but you cannot become a "`good burglar.`"
+
+Traits that are not subject to easy development might require more than a little training. For example, you cannot gain the trait "`strong`" just by mucking around in the underworld for a while. If you want to develop a trait such as "`strong,`" you might need to undertake intense training over weeks, and a regular exercise regimen to maintain your strength once you have developed it.
+
+Use your common sense when deciding what it takes to develop a new trait.
+
+Invent a sign for each trait you develop.
+
+
+== Improving a Current Trait
+
+For a trait listed as 1 or 2 dice, you can increase the score by 1 for every 5 experience dice you spend. Once a score is at 3 or higher, however, it becomes much harder to improve.
+
+First, you definitely need training to raise any score to 4. This training takes at least a year, if you are carrying on other activities at the same time, or six months, if you are training full time. In addition to the training, you must spend 10 experience dice.
+
+Raising any trait to 5 requires highly specialized, nearly full-time training. You might be able to undertake an adventure or two while training, but you will not have time to hold down a job. The training you need costs at least $1,000 US per month, and even finding a qualified trainer will be difficult. You are more likely to find a trainer by having the right connections than by looking in the yellow pages. In addition to the training, you will need to spend 15 experience dice.
+
+Raising a score to 6 is pretty much beyond the scope of the rules. It may not even be possible. You could shell out lots of money and spend a year working at it, and still see no significant progress. Getting such a high score is a matter of roleplaying rather than rule-playing.
+
+Of course, some skills lend themselves to gradual development over years of time. It is possible to develop a score of 6 in a skill just by applying yourself single-mindedly for years on end, but that's out of the scope of the game, wouldn't you say?
+
+The above rules are for discrete traits — side traits or those you develop during play. For your central trait, double the time and dice required. This extra expense is required because the trait actually covers several skills.
+
+
+== Increasing Hit Points
+
+If your trait relates to hit points, you may earn more hit points by developing the trait or increasing your score in it.
+
+If this trait is the only one on which your hit points are based (or if you had no traits to improve your hit points), you may take +7 hit points or roll two dice and add the result.
+
+If another trait besides this one had a hand in improving your hit points, then roll double the number of dice that your newly improved trait offers. This is your new hit points score. (You may not raise your hit points by more than 12 points by this method.)
+
+For example, if a character works out and develops the trait "`strong, 3 dice,`" he can roll 6 dice. If this total beats his current hit points of 22, he gets the new roll as his hit points. If he manages to beat the odds and roll 35 or 36, however, he only gets to keep 34 hit points, 12 better than his previous score.

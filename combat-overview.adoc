@@ -1,0 +1,32 @@
+= Combat Overview
+
+[horizontal]
+Initiative:: Roll a combat, agility, or speed trait at the beginning of a combat. Actions proceed each round from highest roller to lowest.
+
+Attack:: Roll a combat, strength, agility, or similar trait. Compare it to the defender's roll. A non-combat trait can only be used for either attack or defense each round. You hit your opponent if you beat your opponent's defense roll.
+
+Defense:: Roll a combat, agility, or similar trait. A noncombat trait can only be used for either attack or defense each round. You get one defense roll for each attack made against you.
+
+Damage:: On a successful hit, subtract the defense roll from the attack roll. Multiply the result by the weapon's damage factor to calculate the damage done.
+
+Armor:: The defender determines armor protection (usually 1 point for casual armor, or one or two dice for good armor). Subtract this protection value from damage done to get damage taken.
+
+Lost Hit Points:: Subtract the damage that exceeds armor from the target's hit points. If the target is at half hit points or below, they take a penalty die on further actions. If at 0 hit points or below, the target is out of the fight. If at a level of hit points equal to the negative of their normal hit points (e.g. -21 for a character with 21 hit points), they are purchasing agricultural real estate.
+
+Recovery:: After a chance to rest and recuperate (maybe half an hour), you recover half the hit points you lost. After that, you recover only by rest or medical care.
+
+.Damage Factors
+[%autowidth, cols="2"]
+|===
+| Unarmed combat | X1
+| Throwing knife | X1
+| Knives, lead pipes, throwing axe, etc. | X2
+| Swords, axes, etc. | X3
+| Light handgun or SMG | X3
+| Medium handgun or SMG | X4
+| Large handgun or SMG | X5
+| Light Rifle | X6
+| Heavy Rifle | X7
+| 12-gauge shotgun | X10 footnote:[Divided by "`distance dice`" (see "`Weapon Ranges`").
+| Taser | X5 footnote:[All damage from a taser is temporary. Record it separately; it all comes back when the character recovers.]
+|===

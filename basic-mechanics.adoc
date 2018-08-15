@@ -1,0 +1,158 @@
+= Basic Mechanics
+
+These are the rules for play, how to tell if you succeed or fail at the various tasks and efforts you attempt. The special case of combat is covered in the next section.
+
+
+== General Actions
+
+Whenever your character tries to do something, the GM will respond in one of three ways, depending on the difficulty of the task. The task might be *automatic* (no roll required), *chancy*, or *impossible* (no roll allowed), as ruled by the GM.
+
+
+== Chancy Actions
+
+Roll some dice, add the numbers up, and the better you roll, the better the result. Specifically, your total is compared to some other number.
+
+Three results are possible.
+
+1. Your total beats the number. You succeed at what you were attempting. The greater the difference between your roll and the number, the greater the success, as ruled by the GM.
+
+2. Your total equals the number. Draw, stalemate, or inconclusive results are thus indicated.
+
+3. Your total is less than the number. You fail, and the greater the difference between the numbers, the more severe your failure, as ruled by the GM.
+
+
+=== How Many Dice Do You Roll?
+
+Generally, you roll two, three, or four dice, depending on the action and your traits. If you are trying something that directly involves one of your traits, roll the number of dice equal to your score in that trait. If the action has nothing to do with any of your traits, you roll two dice.
+
+That means that the average person attempting the average task rolls two dice. For example, a character is trying to look cool. He is good at manipulating people (score of 3), so the GM tells him to roll three dice. The higher the number, the cooler he appears. A normal person would only get to roll two dice, and a nerd would roll two dice but suffer a penalty die (see below). If he had chosen to have "`manipulating people`" as his "`superior`" trait, he would have gotten to roll four dice.
+
+If you try something at which you have some kind of edge or advantage, you get a *bonus die*. (These bonus dice are awarded by the GM in the situation; they do not come from your experience pool.) Roll it right along with your normal dice, but drop out the lowest die you roll. Your total is still composed of the same number of dice as normal, but they're likely to be higher rolling dice. That's how your advantage translates into game mechanics.
+
+If you try something at which you have some special difficulty or hindrance, roll a *penalty die* along with your regular dice. Now drop out the highest rolling die and use the total of the remaining dice as your roll.
+
+If you get a bonus and a penalty die for the same roll, they cancel each other, and you roll normally. You can use an experience die to cancel a penalty die, but then you cannot use the die again for the rest of the gaming session.
+
+The GM assigns bonus dice and penalty dice depending on her judgment of the situation. You can ask for a bonus die when you think you deserve one.
+
+For example, if a character, before trying to impress this good-looking woman, had successfully watched her for a few hours, he would get a bonus die on his roll (roll four dice and take the best three). On the other hand, if, unknown to him, he had a splotch of ketchup on his tie, he would have to roll a penalty die (four dice, take the worst three). If he had done his research and had ketchup on his tie, he would get neither bonus nor penalty, as they balance each other out.
+
+
+=== Comparing Your Roll
+
+There are two ways to determine what number to compare to your die roll.
+
+When you are working against an inert force, the GM assigns a *difficulty factor*. That's the number to which you compare your roll, and the more difficult the task, the higher the difficulty factor. Alternately, the GM can roll dice for the strength of the inert force, introducing more chance into the equation. The harder the task, the more dice the GM rolls. An easy task would get one die, a moderate task (for the average person) would get two dice, a hard task would get three dice, a really difficult task would get four dice, and a nearly impossible ask might get five or six dice.
+
+When working against an active opponent, *the opponent rolls a number of dice,* just like you do, depending on the opponent's traits and bonus or penalty dice, if any. You and the opponent compare your rolls, with the specific results determined by the GM. Generally, the higher roll wins.
+
+For example, that character is trying to impress the woman he's met at a bar. She notices this, and in turn tries to impress him and gain the upper hand. She has three dice, as well. If the character has been watching her carefully, he'll get a bonus die (and thus an advantage). If he has ketchup on his tie, he'll get a penalty die (a disadvantage). The player and the GM (running the woman) each roll their dice, and the GM interprets the results depending on who beat whom.
+
+Note that the GM need not tell you what she rolls for a GMC, or even how many dice she is rolling. The GM only needs to tell you the results of your action as your character perceives them.
+
+
+=== A Special Case: Technical Traits
+
+With technical skills (such as "`acupuncture`"), even a score of 1 die indicates the character can do things that the average person would have practically no chance to do. (The average person has a score of 0 in acupuncture.) A 1 die acupuncturist might not be very skilled or experienced, but he is still able to do things that even a score of 3 or 4 in another skill would not permit. Assume that someone with such a skill can automatically perform any related action that an unskilled person could do but would have to roll for, as well as most normal functions related to that skill. Generally, a character only rolls for a technical trait in some unusual situation, such as diagnosing an unusual disease or piloting a helicopter through a storm.
+
+In GMC descriptions, technical or fringe traits, where the average person would have no dice in the trait, are indicated with an asterisk (e.g., "`Neurosurgery, 1* die`").
+
+
+=== The Rule of Common Sense
+
+Sometimes the dice will dictate an event that runs counter to common sense, something that would strain the players' willing suspension of disbelief. There are two possibilities when this happens.
+
+First, remember that strange things happen all the time in-game. Go with the result, no matter how bizarre. Maybe the GM will invent a justification for it, maybe not.
+
+Second, don't bother to roll the dice in the first place, if common sense makes clear what's going to happen. The dice are a way to answer the question "`What happens?`" Don't ask questions that you already know the answer to.
+
+The GM has quite a job determining just what is "`common sense.`" Make the job easy for her and don't argue when she makes a ruling.
+
+
+=== The Hand of Fate
+
+Sometimes a chancy situation develops in which no trait truly applies, but the outcome is uncertain. In this case, roll two dice. A high roll means a result good for the players, a roll around 7 means a mediocre or average result, and a lower roll means a bad or dangerous result.
+
+For example, a character is taking his date out on a picnic, and the weather has not yet been determined. The GM lets him roll the dice, and he gets a 5. The GM rules that the 5 means an annoying wind that keeps blowing the picnickers' napkins away, but nothing serious.
+
+
+== Optional Rules
+
+The use of these rules is up to the GM. The GM may use an optional rule all the time, some of the time, or none of the time, according to her preference.
+
+
+=== Botches
+
+When you roll all 1's for a given action, you have botched. Not only have you automatically failed in your attempted action, but something really bad happens. The GM determines the outcome of the botch.
+
+Note that a penalty die greatly increases your chances of a botch, which is as it should be. Likewise, a bonus die greatly decreases botch frequency.
+
+For example, a character is trying to break through a locked door. He rolls two dice, and they come up snake-eyes. The GM rules that, not only did the door fail to budge, but he has inadvertently broken the weird device he is carrying in his pocket that he found last session.
+
+In another example, a character is conning a gullible fellow into trusting him. Unfortunately, he is a bit tipsy at the moment, so he gets a penalty die. He rolls four dice, and they come up 5, 1, 1, 1. That comes to 3, total, and a botch. The gullible GMC rolls one die for resisting the character's schemes, and gets a 2. Even though this is lower than the 3, the character's roll was a botch, so he fails. Suddenly the "`gullible little twerp`" is pointing a big knife in the character's direction.
+
+
+=== Blowing the Top Off
+
+This optional rule eliminates the maximum from a character's rolls. If the player rolls all 6's on any given roll, he rolls another die and adds it to the total he already rolled. If that die is a 6, he rolls it again and adds it, and so on. There is therefore no upper limit to what a character could roll. If you don't like the idea of artificial limits to a character's possible roll, this system may be what you're looking for.
+
+Keep in mind that if you use this optional rule, penalty dice and bonus dice are going to have a bigger impact than if you don't use this rule, just as is the case for the botch rule above.
+
+
+=== The Unstoppable Six
+
+If any of your dice are sixes, you obtain some positive result, even if you are not successful in the roll. Just what this "`limited success`" entails is up to the GM (of course). Also, the more 6's you get, the more powerful your "`loser's revenge`" will be.
+
+For example, a character comes face to face with the shrieking ghost of an Atlantean priest. While the other PCs look disconsolately at their useless weaponry, he says that he is dredging his mind for spells that could bind this ghost to his control. The GM says he does indeed remember such a spell, and has the player roll four dice. He rolls a 13, against the priest's roll of 6, 3, 1, for a total of 10. The character wins and the GM says he can direct the spirit to inhabit a physical object. What the character doesn't know is that the ghost rolled a 6, and that the GM decides that this result means that the ghost has kept itself from being completely controlled.
+
+
+== Multiple Actions
+
+You may attempt more than one action in a round, but by doing so you take a penalty on each action. If you attempt one extra action, you suffer a penalty die on all actions (including defense rolls). If you attempt two extra actions, you roll one fewer die on all actions undertaken in that round. Three extra actions means two fewer dice than normal, four extra actions means three fewer dice, and so on.
+
+== Tangential Traits
+
+Sometimes you have a trait that does not exactly apply to the task at hand. In this case, the GM may allow a bonus die (if the trait is 3 dice) or an extra die (if the trait is 4 dice or better).
+
+For example, consider a model with 3 dice in the trait "`model.`" This central trait covers good looks, use of make-up, and possibly bad acting. If she tries to use make-up to alter her own appearance give her two dice plus a bonus die; that's better than average but not as good as someone with the trait "`disguise.`"
+
+
+== Group Efforts
+
+When working together, PCs can improve (or sometimes decrease) their chances of success. Depending on how well a given task can be accomplished by more than one person, the GM can call for one of the following resolution systems.
+
+
+=== Simple Addition
+
+In tasks that two people can easily do simultaneously without getting in each others' way, add the dice of both characters together.
+
+For example, two characters are trying to lift a stone that's covering a chute to some underground passage. The GM decides that a roll of 13 is necessary to move it. (That means an average person wouldn't have a chance of moving it alone.) They each get two dice for brute strength, and they roll a 4 and a 10, for a total of 14. They move the stone and descend into the darkness.
+
+
+=== Combining Dice
+
+In tasks where two can work together effectively, but not perfectly, roll all the dice and take the highest, a number of dice equal to the number normally rolled by the best of the cooperating characters. (Effectively, the dice rolled by lesser characters become bonus dice for the best.)
+
+For example, two characters find a cache of ancient texts, partially translated into barely coherent English. Under time pressure, they rush through the texts looking for something useful. He rolls four dice, she rolls two, and they take the best four dice between them to see how much information they can glean quickly.
+
+Their escape is cut short, however, when a gang of roughs surrounds them. The first character is up against five of them, who roll two dice in combat. The GM rules that they don't fight in a coordinated pattern, and that not all five can get to the character at once, so they only get "`combining dice.`" He rolls three dice for 14, while the gang members roll ten dice and take the best two, a 5 and a 6. The character manages to beat off the gang members, but (because of the unstoppable six), he suffers a nasty kick in the groin while doing so (5 hit points damage).
+
+NOTE: This fight was an example of "`gestalt`" combat.
+
+
+=== Either/Or
+
+Sometimes characters split up a task so that only one of them (determined randomly) has a chance for success. In this case, all the PCs might roll, but only the one with a real chance for success counts.
+
+For example, two characters decide to search the bodies of their fallen enemies for anything of interest. Each PC searches half of the bodies, so only one will even have a chance to find the note hidden in one's pocket. The GM rolls and determines that the second character is searching the relevant body. Being perceptive, she rolls three dice plus a penalty die for the darkness of the chamber; she gets an 8, good enough. Meanwhile, the first character rolls a 4, and the GM tells him he found nothing. He doesn't know that there wasn't anything for him to find, anyway.
+
+Now if these two PCs weren't running for their lives, they might have gone over each of the bodies together (using combining dice). As it was, they sacrificed thoroughness to save time and are once again fleeing for an exit from the cavern.
+
+
+=== Worst Roller
+
+When two or more characters attempt something that should really be left to one of them, they all roll, and the worst roll is used to determine the result.
+
+For example, two characters have finally found an exit to the caverns they're searching, a tunnel that opens onto the private grounds of a wealthy businessman. While looking for a way out, they are discovered by a security team armed with tasers. Immediately the first character pretends to be happy to see them and launches into a tale about how they're lost. Hoping to help, the second character speaks up and adds some details. The GM tells each player to roll for the effectiveness of their stories, three dice for the first character (who is good at manipulating people) and two dice for the second. The first character, with his roll of 9, beats the guards' roll of 7, but the second character rolls only a 6, and the guards become suspicious. Rather than take chances, the guards taser the two of them and drag them off to an interrogation room.
+
+If they had taken time to invent and rehearse a story, they would have been able to use combining dice (best three out of their five dice), but since they didn't coordinate their subterfuge, the guards had a much easier time seeing through their ruse.

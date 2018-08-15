@@ -1,0 +1,319 @@
+= Combat
+
+The rules above rely a lot on common sense, the GMs ability to adjudicate ambiguous results, and your goodnatured acceptance of the GMs rulings. In combat, when things happen fast and your life is on the line, you probably need more specific rules. Here they are.
+
+
+== Movement in Combat
+
+Sometimes you will want to know just how long it takes to get from one place to another. Assuming a 3 second round, you can move at the following speeds:
+
+[%autowidth, cols="2"]
+|===
+| Walking (3 km/h) | 2.5 m/round
+| Hurrying (6 km/h) | 5 m/round
+| Jogging (9 km/h) | 7.5 m/round
+| Running, steady (12 km/h) | 10 m/round
+| Running, fast (18 km/h) | 15 m/round
+| Sprinting (24 km/h) | 20 m/round
+|===
+
+For reference, remember that a "`4 minute mile`" means running at about 24 km/h for four minutes. Not many people can do it, though some can run that fast or faster for much shorter periods of time. Also remember that characters usually do not have light clothes, running shoes, a generous warm-up, and a clear track on which to run. That 24 km/h figure is impossible for most PCs in most situations.
+
+
+== Initiative
+
+When the fight starts, each player rolls for *initiative*. Use whatever traits are appropriate. For example, traits such as "`agile,`" "`good reflexes,`" and "`martial artist`" count. Lacking any such trait, a character rolls 2 dice. The GM can roll for all the GMCs with one roll for simplicity's sake. The GM or a helpful player writes down the characters from highest roll to lowest. This is the order in which they will act each round.
+
+Or have each of the players act in the order they are seated around the table, with the GM acting first or last.
+
+
+== Rounds
+
+Each round is long enough for each character to do one thing. That way everyone stays involved all the time. Generally, a round equals 3 seconds of action in the game world.
+
+The GM calls on each player in turn, depending on their *initiative* rolls. When you are called, you get to do one thing that you could do in a few seconds, such as try to hurt somebody, run away, use a fringe power, scream for help, try desperately to patch a bleeding wound, find that necessary implement in your backpack, or whatever. If you try to do too much, the GM will only let you perform part of the intended action. The most common thing my players do is try to take a piece out of their opponents, rules for which are below.
+
+You may also wait to act until later in the round, in which case you just interrupt when you want to take your turn. (By waiting, you can coordinate a simultaneous action with another character.)
+
+
+=== How Long is a Round?
+
+If a combat represents a lightning fast exchange of blows between kung fu masters, each round might be a second, or even less. If the combat is a duel between two sophisticates who like to insult their opponents and hold a nasty dialogue while pounding on each other, then a round might be ten seconds or more. Unless the GM rules otherwise, assume a round is about three seconds long.
+
+
+== Attacks
+
+When it is your turn to attack, roll your relevant attack trait, such as "`Strong,`" "`Martial Artist,`" or "`Good with a Baseball Bat.`" If you get a penalty die or bonus die, add it in.
+
+The target of your attack makes a defense roll, using traits such as "`Fast on My Feet,`" "`Good Brawler,`" or "`Slippery as an Eel.`"
+
+NOTE: A non-combat trait cannot be used for both attack and defense in a single round. If you are "`Agile,`" you must decide each round whether to use that trait for your attack or defense roll. A specifically combat oriented trait, such as "`Good Knife- Fighter`" can be used for both attack and defense rolls. This rule preserves game balance. Since a trait like "`agile`" has non-combat applications that "`good knifefighter`" does not have, it wouldn't be fair to allow such a broad trait to equal a strictly combat-oriented trait in a fight.
+
+On the other hand, someone who is "`Strong as an Ox`" and has "`Good Reflexes`" to boot could use "`Strong as an Ox`" for the attack roll and "`Good Reflexes`" for the defense roll.
+
+So you've rolled your attack roll and the other guy has rolled defense. Compare the numbers. If your attack roll is less than or equal to the defense roll, you have failed to connect for significant damage. If your attack roll is higher than the target's defense roll, you've scored a hit and will do damage. Subtract the defender's (lower) roll from your (higher) roll. Multiply this result by the damage factor for the weapon you are using, and the total is the damage you have just dished out (more tasty details below).
+
+Bear in mind that making an attack roll does not represent a single swing or lunge; it represents three seconds of trying to get the other guy. A high roll might mean that you have pounded your opponent in the head several times, not just once.
+
+
+=== Ranged Attacks
+
+For *missile weapons* like guns and crossbows, the system is a little different because it is harder to hit someone at a distance with a single shot than it is to stab somebody next to you during three seconds of your best effort. With missile weapons, the target receives a defense roll based on such factors as range, movement, cover, and so on. The GM assigns the defense roll, based on the factors in the "`Ranged Attacks`" table.
+
+The distance terms are highly subjective as they depend on the type of weapon being used. The Weapon Ranges chart lists the range in meters at which the target receives various defense dice, based on the type of weapon used. If the distance in meters exceeds the number listed, use the next higher number of dice. For example, if someone opens up with a sub-machine gun while you are 30 m away, you will get 3 defense dice for range, in addition to dice for dodging, moving, cover, and so on.
+
+.Ranged Attacks Table
+[%autowidth, cols="<s,^,^"]
+|===
+| | Defense Dice
+
+| Distance | Point Blank | 1
+| | Short Range | 2
+| | Medium | 3
+| | Long Range | 4
+| | Very Long Range | 5
+| Cover | | 1 or 2
+| Target Moving | | 1
+| Attacker Moving | | 1
+| Target Dodging | | bonus footnote:[Defender gets bonus dice equal to the number of dice normally rolled for "`agility,`" "`quick reflexes,`" etc. (The default is 2 dice.) Someone with "`fast, 4 dice,`" for example, would receive 4 bonus dice on the defense roll. A clumsy character receives only one bonus die for dodging.]
+| Darkness, fog, etc. | | 1 or 2
+|===
+
+The target rolls the number of dice indicated from among the above factors as his defense roll.
+
+.Weapon Ranges
+[%autowidth, cols="<,^,^,^,^,^"]
+|===
+| 3+^| Dice for Defense Roll
+
+| *Weapon* | *1* | *2* | *3* | *4* | *5*
+| Thrown, balanced footnote:[Such as a ball or throwing knife.] | 2m | 4m | 8m | 16m | 32m
+| Thrown, awkward footnote:[Such as a sword or blender.] | 2m | 4m | 6m | 8m | 10m
+| Crossbow | 2m | 10m | 20m | 40m | 80m
+| Taser | 1m | 2m | 5m | {blank}footnoteref:[cords,Their electric cords don't extend past 5m.] | {blank}footnoteref:[cords]
+|===
+
+==== Weapon Range Table Notes
+
+To find the "`distance dice,`" find the number that is equal to or higher than the distance to the target. Now find the number at the top of that column, that's the number of "`distance dice`" rolled for defense. For example, if you throw a baseball ("`thrown, balanced`") at someone 6m away, the target gets 3 dice for the defense roll (plus other modifiers besides distance).
+
+If the GM wishes, she can use "`half-dice`" when characters do not deserve full dice under the rules above. For instance, someone under very light cover might just get a bonus die instead of an extra die on defense, or someone standing 5m from a knife-thrower might get 2 dice plus a bonus die for range, rather than jumping straight from 2 dice to 3 because of the difference between 4m and 5m.
+
+Some weapons may, at the GM's option, have ranges different from their general types, based on design. After all, some weapons are just better than others.
+
+
+== Predictable Attacks
+
+If you ever make a predictable or boring attack on an opponent, the GM has the right to give you a penalty die on the attack. Here are some examples:
+
+[horizontal]
+Penalty die:: "`I swing at it.`"
+
+No penalty die:: "`I pull back for an allout blow at that thing's lower face.`"
+
+Penalty die:: "`I try to hit it in the gut again.`" (After trying the same thing the round before.)
+
+No penalty die:: "`Well, it's gut is pretty well protected; I'll drop to the ground and sweep its feet out from under it.`"
+
+There are two reasons for this rule. First, if you try the same attack repeatedly or attack without planning (as evinced by phrases like "`I swing`"), then your opponents are going to have an easy time defending themselves. Second, "`I swing`" is boring.
+
+The "`predictable attacks`" rule does not apply to GMCs.
+
+
+== How Much Damage?
+
+If you've scored a hit, now you take the difference between your roll and the defender's, multiply it by a damage factor (see below), and the result is the number of points done in damage. Certain types of armor subtract a certain number from each attack that does damage. Only the points in excess of the armor's rating can do damage. These points are deducted from the target's hit points.
+
+.Damage Factor
+[%autowidth, cols="2"]
+|===
+| Unarmed combat | X1
+| Knife, lead pipe | X2
+| Sword, axe | X3
+| Throwing knife, slingshot | X1
+| Crossbow, throwing axe | X2
+| Taser | X5 footnote:[All damage from a taser is temporary. Record it separately; it all comes back when the character recovers.]
+|===
+
+
+=== Tasers
+
+Tasers are popular among private security forces. Tasers hit you with a massive amount of voltage, probably enough to knock you down and keep you down for a while, but they do no permanent physical damage (unless you have a weak heart…). They have a damage factor of X5.
+
+Versus armor, tasers are an exception to the general rule because the damage comes from electric shock rather than kinetic energy or penetration. Roll the dice for armor as if for a normal (non-bullet) attack. If the dice match or exceed the number by which the attack roll exceeded the defense roll, the armor has prevented the taser from penetrating, and you take no damage. If the roll is less than the number by which the attack roll exceeds the defense roll, the taser does full damage. In other words, either the armor stops the taser or it doesn't; there is no middle ground.
+
+
+=== Messed Up
+
+If the target is now at half or less their normal hit points, they suffer a penalty die on all actions until they recover to more than half their normal hit points. The GM may assign more specific debilities for characters that have received specific wounds, such as decreased mobility from a knee shot, decreased vision from a blow to the eye, and so on.
+
+
+=== Down for the Count
+
+If the target is at 0 hit points or below, they are out of the fight. "`Out of the fight`" can mean a lot of things, depending on the type of weaponry used and the number of points below 0 that the target is at.
+
+When you have taken enough damage to be out of the fight, but not enough to kill you outright, you may find yourself in any of various states of disrepair.
+
+Someone dropped to 0 by fists and kicks is likely hurt, unable to fight, demoralized, in great pain, and probably suffering some broken bones. The situation, however, is rarely lethal, and most vital organs are well-protected by a body structure carefully shaped by millions of years of evolution. Such an injured character should be able to return to impaired function with time or the help of friends and eventually recover completely.
+
+Someone at 0 or below from application of clubs, cudgels, monkey wrenches and the like may well have badly broken bones and internal bleeding, but they're likely to be in stable condition. They might be able to resume mobility after a while even if left on their own, though they might have a concussion.
+
+Knives and other sharp, pointy things are likely to leave you incapacitated and bleeding. Untended, you could easily bleed to death (especially from a slashing weapon) or die from internal injuries (especially from a puncturing weapon).
+
+Guns and similar are likely to leave you in shock, dying, bleeding, helpless, and hopeless. Emergency medical attention may well be required
+to save you.
+
+
+=== Character Death
+
+As a rule of thumb, a character dies when he has taken twice as many points of damage as he has hit points. If you have 21 hit points and drop to -21 through wounds, you are either dead or checking out. In order to survive, you need medical attention and a reason to live.
+
+At that point, you face the decision of recovering or letting go. Attempting to recover means piecing your broken body back together, suffering prolonged pain, possibly facing permanent injury, and perhaps dying anyway after undergoing all that tribulation. Letting go is often the easier option, letting yourself slip into the great white light, where the damage inflicted on your body will not be an issue at all. At the point of death, you can only direct your will to recover if you have a good reason to live. Tell your reason to live to the GM; if she agrees it is sufficient, you live. Otherwise, you slip off into the great beyond. (Of course, the GM may wish to make a roll or two when deciding whether you live.)
+
+
+== Armor
+
+Armor comes in two types: regular armor and bullet-proof armor. These rules deal with regular armor. See the rules for Firearms for details on bullet-proof armor and the effect of regular armor against firearms.
+
+
+=== Regular Armor
+
+The rating for regular armor represents the number of dice rolled and deducted from each attack.
+
+*Very light armor* (generally leather clothes and the like) has a rating of "`1 pt.`" It stops only one point of damage versus normal attacks.
+
+*Heavy armor* can slow you down, causing you to take a penalty roll on every action that requires agility (including attack and defense rolls).
+
+The protection offered by armor is cumulative, but "`stacking`" armor causes a penalty die for each extra layer of armor worn. For example, someone wearing thick leathers under their plate mail would roll 2 dice and add 1 point for protection, but they would also suffer two penalty dice on agility-related actions (one for the plate mail, the other for the extra layer of armor).
+
+Armor can be exposed to some pretty rough treatment, and may degrade after suffering significant punishment, but this circumstance is best left to role-playing rather than number-crunching.
+
+.Regular Armor
+[%autowidth, cols="<,^,^"]
+|===
+| Type | Rating | Penalty?
+
+| Leathers | 1 point | no
+| Armored Jacket | 1 | no
+| Plate Mail | 2 | yes
+|===
+
+
+== Recovery
+
+For game purposes, assume that about half of damage (in terms of hit points lost) comes from pain and shock. Only the other half is "`permanent.`" Thus, after a fight is over and the characters have some time to rest, *every character recovers half of the lost hit points.*
+
+
+=== Hit Point Recovery Conventions
+
+1. The character recovers hit points when the GM sees such recovery as reasonable. Generally, after a character receives some rudimentary first aid and has a chance to regain spent strength, the hit points return. Alternately, the GM may allow recovery under special circumstances, as when an impressive leader orders an incapacitated follower to get up and keep moving, or when dire need arises.
+
+2. Hit point level after recovery is halfway between the wounded level and the last level after recovery. Do not use the starting (unwounded) level of hit points as a base unless the character started the fight unwounded. For example, a character takes 10 points of damage and drops from 22 to 12 hit points. He then recovers half the lost hit points and now has 17 hit points. Again he takes 10 points of damage, dropping to 7 hit points. He recovers to halfway between 7 and 17, not to half-way between 7 and his normal level of 22. He now has 12 hit points and will only get more through medical attention or prolonged rest.
+
+3. Round hit points up, if half-way recovery results in a fraction. (This means that being wounded for 7 points twice will leave you 6 points down from normal, whereas being wounded for 14 points once will leave you 7 points below normal. Multiple small wounds are slightly easier to recover from than a few large wounds.)
+
+4. The GM can require rolls of any kind to determine whether a character recovers. For example, if very little time has passed since a fight (normally not enough to allow any recovery), the GM may allow someone trained in first aid to make a roll, and only a success in the GM's eyes will allow hit point recovery.
+
+5. The GM has the right to change the recovery from half-way to more or less than that. For example, it might be relatively easy to recover from being beaten with fists (two-thirds of the loss recovered), and relatively difficult to recover from serious gunshot wounds (one-third recovered). The GM has sole arbitrating power over this variation, so she can make the system as complex or as simple as she cares to.
+
+
+== Healing
+
+Once a character has recovered, he can start regaining the remaining lost hit points. Hit points are regained each day, with the points regained based on the activity undertaken that day. See the Long-Term Healing table, below, to see how many hit points you recover each day.
+
+.Long-Term Healing Table
+[%autowidth, cols="<,^,^,^"]
+|===
+| Activity | Mobile | Bed-Ridden | Critical
+
+| Active | 0 footnoteref:[rest,May lose hit points, at the GM's option.] | — | —
+| Rest | 1 | 1 per 2 days footnoteref:[rest] | 0 footnoteref:[rest]
+| Medical Care | 2 | 1 | 1 per 2 days
+|===
+
+* Active means exerting oneself normally.
+* Rest means taking it easy and sleeping a lot.
+* Medical care means being under the care of competent physicians.
+* Mobile means you have 1+ hit points (and can move around).
+* Bed-Ridden means you have 0 or fewer hit points.
+* Critical means you are severely wounded (GM's option).
+
+
+== Special Effect Attacks
+
+When a character tries an attack that is intended to do more than just some damage, the attack roll is made normally, but only half the normal damage is done. The special effect succeeds only if the attack roll exceeds the defense roll by an amount the GM judges to be sufficient.
+
+Special effect attacks include tackling, disarming, knocking your opponent's feet out from under him, immobilizing a limb, headlock, and so forth.
+
+
+== Attacking from Advantage
+
+Whenever you have the edge over an opponent because of something besides your traits, you can ask the GM to give you a bonus die on your combat roll. Common advantages are:
+
+
+=== Ganging Up
+
+Someone can defend normally against one opponent for each die they have in fighting ability. (An average person, therefore, can defend normally against two attackers.) Each additional attacker receives a bonus die on attacks against that character. The defender gets to choose which attackers get the bonus die.
+
+
+=== Attacking With Surprise
+
+The GM might require a roll to see how stealthy you are compared to how alert your target is. If you hit the guy when he's totally unaware, the GM might grant you more than just a bonus die.
+
+
+=== Better Weaponry
+
+If you have a club and your opponent is bare-handed, you've got an advantage (better reach, something to block with that doesn't bleed, and a psychological edge). The same goes if you have a sword against someone's switchblade. Remember that this bonus die depends not on how much damage you do, but on how handy the weapon is in combat. Imagine you have a quarterstaff and your enemy has an axe. He does more damage, but in terms of reach and blocking ability his weapon is no better than yours, so he doesn't get a bonus die. If he had some weird science vibrating knife that did horrendous damage, you'd get the attack bonus because the quarterstaff is longer and better for parrying. Of course, if he hit you, you'd suffer worse than he would if you hit him.
+
+
+=== Better Position
+
+On top of them, above them, behind them, and so forth.
+
+
+=== Psychological Advantage
+
+You've just convinced you opponent that their chances of beating you are nil. The next round (only) you get a bonus die on your rolls. Using a nasty-looking weapon helps a lot, even if it's no more effective than a regular one.
+
+Or, if your seven-year-old daughter is whimpering helplessly in the closet behind you as you defend her from a maniac, you get a bonusdie on your rolls for the duration of the combat.
+
+
+== Optional Rules for Combat
+
+The GM decides when and whether to use these rules. The GM may use any given rule always, sometimes, or never.
+
+
+=== Desperate Defense
+
+A character normally gets one attack roll and one defense roll per attacker each round, but if you give up your attack, you may get a bonus die on each defense roll for that round.
+
+
+=== Alternate Damage
+
+If the attacker scores a hit, they roll one die for each number in the damage factor for the weapon. If the attack roll is twice the defense roll, the attacker multiplies the result by two.
+
+For example, a knife does 2 dice of damage, or 2 dice times two if the attack roll is at least double the defense roll.
+
+A character may not use bonus dice for damage rolls, only for the attack rolls.
+
+You may use this system when an "`attack roll`" is not called for, such as when an explosive goes off near a character and the GM simply rolls some dice to determine damage.
+
+
+=== Serious Wounds
+
+In addition to losing hit points, a character can suffer a "`serious wound.`" Serious wounds do not always heal completely on their own. Without medical attention, these wounds may "`mis-heal`" (causing a permanent impairment) at best or lead inevitably to death at worst. Examples of serious wounds include compound fractures, internal bleeding, penetration of intestines, damage to internal organs, severed tendons, and more.
+
+A serious wound that mis-heals without medical attention, such as a severed tendon or a compound fracture, heals at half the normal rate and leaves the character with a permanent disability, such as a penalty die on agility-related actions or the inability to manipulate certain joints.
+
+A serious wound that leads to death, such as a severe infection or severe damage to the liver, causes the character to lose hit points every day until proper medical attention is applied. Hit points lost can be anywhere from 1 to 15 per day, depending on the wound. Such a character is usually bedridden while the doomed body makes its last-ditch effort to save itself.
+
+A wound is usually a "`serious wound`" when at least 20 points of damage are suffered in a single blow, but it is possible to take a serious wound from a relatively minor attack, such as a badly broken arm that doesn't incapacitate you but won't heal well on its own. Another possibility is that a botched defense roll leads to a serious wound. The GM, of course, may prefer to play serious wounds by ear.
+
+
+=== Gestalt Combat
+
+In the gestalt system, you make one roll to determine the general outcome of the fight. The players total all their rolls, and the GM totals all the GMCs' combat rolls. (The GM determines what rolls are made and how, depending on the circumstances of the fight.) Whichever side rolls highest wins the fight, but the GM keeps the GMCs' total a secret, so the players don't know who will win. Then the players and GM talk through the fight, with the GM adjudicating the actions based on the rolls already made. The GM can go into any level of detail desired, including dishing out damage to individual PCs that rolled poorly, or even altering the result of a close fight if the players use effective tactics.
+
+The GM can even simply declare the results of the fight with no play-by-play descriptions if she wants to keep things moving at a rapid pace.
+
+As a GM, use gestalt combat whenever the detail of normal combat seems pointless.

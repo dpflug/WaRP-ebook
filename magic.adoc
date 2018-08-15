@@ -1,0 +1,73 @@
+= Magic
+
+There are hundreds of different styles of magic from various cultures and traditions around the world, but for the sake of mechanics they can be broken down into two types: free form and spell-casting.
+
+Free form magic is essentially equivalent to fringe powers. The better one's roll, the more effect the magic has. You can use fringe powers like those described above to represent free form magic.
+
+Spell-casting is the use of specific spells that have pre-determined effects. Your roll determines whether the spell takes effect, not its power.
+
+The GM may wish to limit who can learn spells at all, or limit PCs' access to spells and magical knowledge, depending on the role you wish magic to take in your series. You may apply any or all of the following restrictions:
+
+[horizontal]
+Intense Study:: Only years of study, preferably with a learned master, can make one capable of casting even the simplest spell. This restriction effectively nixes PCs learning spells, unless they begin the game as wizards.
+
+Rare Talent:: Only few people can learn magic at all (one in six? two in six?). You may rule that anyone who has developed another kind of fringe power already is unable to learn magic because their supernatural potentiality has been corrupted.
+
+Rare Resources:: Resources are hard to come across. Spell books may be written in an ancient or foreign language, or in code, so even if PCs find them, they may be worthless to them. The few wizards who exist probably do not admit to their nature and certainly will not accept students who have not proved their utmost loyalty and discretion. Magic becomes something special if it is something rare.
+
+
+== Learning a Spell
+
+When studying a spell in order to learn it, a character must spend a week studying at least 2 hours per day and sacrifice 5 experience dice. He then rolls a single die. If the number at least equals the spell's level, he has learned the spell. If not, he records a "`1`" on his character sheet to represent the number of dice he has rolled to learn the spell. He may then spend another week studying and sacrifice another 5 experience dice, after which he rolls 2 dice. Again, if the roll at least equals the spell's level, he has learned it. Otherwise he he changes the "`1`" to "`2.`" representing how far he has progressed in studying the spell. He repeats this process, rerolling with one more die for each week and 5 experience dice expended until he gives up or learns the spell. If the character does not have a psychic pool when he learns a spell, he gains 1 shot in that pool.
+
+If the character botches on any roll to learn a spell, bad things can happen.
+
+For example, suppose a character tries to learn the 12th level spell, Unswerving Arrow. The GM has not told him the level of the spell, but she has said that he can tell that it's pretty difficult. He begins studying the spell (actually spending four hours per day, since he does not have a teacher to tell him that the extra two hours are wasted), and at the end of a week he expends the experience dice and rolls a single die. He gets a 5, not good enough. The GM says that he thinks he is getting the hang of it, but he still can't manage the spell. He keeps trying, and after another week and another 5 experience dice, he rolls 2 dice, this time getting a 4 — failure. After two more weeks and 10 more dice, he rolls (on four dice) a 13, good enough. The GM now informs him that he knows the spell and that he has one shot in his Psychic Pool. He immediately takes two more dice from his experience pool and gives himself a second shot in the psychic pool. He has now spent 22 dice from his experience pool, and he can cast his spell twice per day.
+
+
+== Casting a Spell
+
+To cast a spell, a character expends one shot from the psychic pool. Under normal conditions, the spell always works. The GM may require rolls for targeting the spell correctly or maintaining concentration, depending on the spell, the situation, and her discretion.
+
+Remember that many magicians use free-form magic, which works like standard fringe powers. Spell-casting proper, however, is very reliable.
+
+The target may get a resistance roll against spells that directly affect the mind or body, in which case the level of the spell always counts as its "`strength.`" A resistance roll at least equal to the spell's roll generally resists the spell's effects.
+
+
+== Sample Spells
+
+There are an incredible number of spells available for those who can find them and learn them, so do not worry about a definitive spell list. Instead, invent interesting spells as they are needed. If the characters discover a wizard's spellbook, it might have four spells in it. Invent those spells. If they encounter a wizard, she may know seven spells. Invent those spells as you need them. Like fringe powers, spells should be individually crafted for the episodes in which they appear.
+
+As magic spells have developed over the years, wizards have learned that the best way to kill someone outright is with a gun or other simple weapon. The spells that are most common, therefore, are those that do not replicate a gun's effect. Spells that have weird effects (not easily reproducible by technology) are much more common that those that simply cause damage.
+
+Below are sample spells to show appropriate levels for spells of various power.
+
+
+=== Lurking Chains, Level 3
+
+Creates the sound of clanking chains in thin air anywhere within 20m of the caster. The sound travels about slowly (about 2m/round) in random directions, but it tends to follow hallways and such. (It does not travel through walls.) The clanking lasts ten minutes. Wizards use it as a distraction.
+
+
+=== Blessed Black, Level 6
+
+Extinguishes all sources of light within 10m of the caster for one minute, though the caster can also end the spell at will.
+
+
+=== Serpent's Tongue, Level 9
+
+Makes the caster's words more effective, whether they are used to seduce, intimidate, convince, or persuade (bonus die on all appropriate rolls). Lasts 1 minute.
+
+
+=== Grip of Stone, Level 12
+
+Paralyzes one person or animal within 15m. The target can roll strength or a similar trait to resist, escaping the effects of the spell if the roll at least equals the wizard's roll to cast the spell. Paralysis wears off within half an hour.
+
+
+=== Ring of Gyges, Level 15
+
+Makes the caster invisible for 10 minutes. Dogs tend to be disturbed by the caster's presence. The name refers to a ring of invisibility from Greek myth.
+
+
+=== Seven Shields of Glory, Level 18
+
+Creates seven invisible shields that protect the caster. All weapons bounce harmlessly away from him as soon as they strike within 10 cm of his body. For a split-second one can see a shimmering shield half a meter in diameter appear to deflect the weapon. If the wizard is struck by several attacks at exactly the same instant and the seven shields cannot guard against all the blows, some will get through. The spell lasts an hour.

@@ -1,0 +1,138 @@
+= Fringe Powers
+
+The role of fringe powers in the game is up to the GM. If you wish, they can be relatively common, at least among the player-characters and the GMCs with whom they interact. If you prefer a more subdued game, then you can tell players their characters cannot have them and then make them practically impossible to come across.
+
+When running fringe powers, use your imagination to adjudicate their use. The following rules are certainly open to modification and interpretation. When players invent fringe powers for their characters, they are unlikely to replicate exactly the powers described below. Try to be true to the player's vision, using these powers as guidelines for how to interpret the player's ideas, rather than as an authoritative list to which the players must conform. The same holds true when developing fringe powers for your GMCs.
+
+
+== Learning Fringe Powers
+
+It generally takes a month of full-time study to learn a fringe power, and access to a knowledgeable teacher.
+
+At the end of that time, the player decides how many dice from his experience pool to use, rolls the dice, and only if at least one of the dice is a 6 does the character acquire the power. (Better or lesser teachers, improper preparation, native inclination, and other factors may, at the GM's discretion, alter these odds.)
+
+Optionally, the GM may rule that there is a chance that a character is psi-mute, unable to develop psychic powers. When the character first attempts to learn a fringe power, roll a die in secret. If the roll is a 1, that character is psi-mute and cannot learn fringe powers. The only way for the character to find out that he is psi-mute is to try to learn powers until he gives up. Do not use this optional rule if you think it will disappoint your players unduly.
+
+Rolls for the acquisition of psi powers are usually made in secret. The GM simply asks the player how many dice he wishes to give up from his Experience pool, and makes the roll herself. Don't give the players any information that their characters do not have.
+
+Upon learning his first fringe power, the character gains a psychic pool with one die in it. He may increase the number of dice in this Pool immediately by transferring dice from the experience pool (two experience pool dice can be traded for one psychic pool shot).
+
+
+== Using Fringe Powers
+
+Everyone who has fringe powers has a psychic pool, representing the number of times he can use fringe powers each day. A psychic pool contains a specific number of "`shots,`" each of which can be used each day to power one of the character's fringe powers. "`Psychic pool`" is the game term used for convenience, but each character should have a name representing the way the character understands the power (ch'i pool, ki pool, magic pools, mana pools, and so forth). Regardless of their names, the pools work identically, so the rules refer to them simply as "`psychic pools.`"
+
+When a beginning character has a psychic pool, the player rolls a die to determine the number of shots in the pool. (Alternately, the player may choose to have 3 shots in the pool instead of rolling.) A character with two or more powers can roll for each, and take the highest roll to determine the number of shots in the pool. When a character develops a power for the first time, he has 1 shot in the pool. (If a character already has a pool, developing a new power does not increase the number of shots in the pool.)
+
+One shot can be added to the pool by subtracting 2 dice from the experience pool. So a character can give up four experience dice and add two shots to his psychic pool. He may not convert shots to experience dice.
+
+When a character uses a fringe power, he loses 1 shot from the psychic pool. He may also "`push`" the power, which means he loses 2 shots from the pool, but can roll twice the normal number of dice, counting only the better half. (For example, if you have two dice in "`dreamhaunting,`" you can use 2 shots for a single use of that power, roll four dice, and then count the best two as your roll.) If the power works against a being, that being gets a dice roll to resist. Most people get 2 dice. (Abilities like "`strong will`" or "`resistance to
+
+domination`" may give characters more dice to roll, at the GM's discretion.) A psychic may use a shot from his psychic pool to resist another's psychic power, if he knows the power is being used against him. If he uses this shot, he gets a number of dice equal to his best psychic power as bonus dice on his resistance roll. If the defending psychic has a fringe power that could counter the effects of the attacking power, he can use those dice in addition to the normal 2 dice that average people get, but must expend a shot to do so. For example, telepathy can counter mind scanning or telepathy. A 2 die telepath can expend a shot to get 2 more dice than normal when resisting a mind scan. A 2 die pyrokineticist, on the other hand, can expend a shot to resist a mind scan, but he would only get two bonus dice, not two extra dice.
+
+Psychic shots return 100% in 24 hours. If a character has six shots in his pool, he recovers one die every 4 hours. Some entities have unusual requirements or special advantages for recovering spent psychic shots. A druid, for example, may be able to recover shots at twice the normal rate when sky-clad (naked) under the moon. He may, however, recover shots at half the normal rate when not in contact with at least one natural element (fresh air, direct sunlight, etc.).
+
+Since a normal person gets two dice to resist abilities like telepathy, a beginner with a fringe power should try to improve his chances by making the situation more amenable to him. When trying to ferret out a secret computer password from another person, for example, he may offer the target drinks to lower his defenses and then mention computers in an effort to bring the password into his consciousness. The penalty dice the target would receive and the bonus dice the telepath can use may make up for the one die vs. two dice odds. GMs should encourage these special efforts because they add role-playing and strategy to what could otherwise just be a die roll.
+
+
+== Interpreting Fringe Powers
+
+There's no way the rules can capture all the variability of fringe powers. Play them by ear, do what feels right and seems interesting, bend to the needs of the story. If it fits the plot for a character (PC or GMC) to be able to do something with a fringe power, let it be, even if the rules don't specify that interpretation, and sometimes even if the rules specifically disallow that interpretation.
+
+The most common example is duration. If a power lasts "`1 hour,`" then some people may shake it off in 50 minutes, while others might stay under the influence for an hour and a half. The duration is a general guide. Fringe powers do not "`pop off `" after the exact duration has expired.
+
+The same goes for distance. While a mind scanner may generally only be able to find thoughts within 10 m or so, the limit may be 100 m when searching for a good friend, 1 km when searching for an identical twin, or 10 km when searching for very powerful and uniquely evil thoughts emanating from a specific unnatural creature.
+
+Of course, the above call for loose interpretation applies to every trait and roll in the game, but it can be especially important in making fringe powers mysterious, interesting, and non-mechanical.
+
+
+== Sample Fringe Powers
+
+Note that the names given to these powers are strictly for convenience and reference within the game. Some teachers may use similar or very different names.
+
+The powers below are only examples. Alter or ignore them as you wish, and be sure to invent others in your series.
+
+
+=== Aura Sight
+
+The ability to see people's auras. The color of the aura varies with the mental and physical state of the person. By reading auras one can see someone hiding in the darkness, tell when someone is lying, tell when there is psychic interference. Most people roll 2 dice to resist this power. One can see auras better up close and when one knows or at least is able to talk to someone. An Aura Seer may also be able to see an aura around a particularly powerful (or malevolent) magical item or locus.
+
+
+=== Healing
+
+Directs healing energy to damaged or diseased areas, improving the natural curative powers of the subject. When curing damage, the roll on the trait equals the number of points that the character recovers. If the wounded character has not yet recovered half his lost hit points as per the recovery rules, the healer heals twice the points rolled on the dice. It takes about 30 seconds (5 rounds) for the healing to be complete, and the healer must be in contact with the injured party during that entire time. When used to heal diseases and such, the healer must roll against a Difficulty appropriate to the disease. Below are guidelines for diseases and such. A healer who rolls all 1's when trying to heal someone of a disease acquires that disease himself, even if the disease is not normally communicable. In addition, the healer loses the ability to heal until that disease itself is cured. For an incurable disease, this event can mean losing one's power until another healer heals him.
+
+[horizontal]
+Common cold, cold sores, acne:: 5
+Addiction to nicotine or cocaine, pneumonia:: 10
+Leprosy, cerebral palsy, Alzheimer's, cancer:: 15
+
+
+=== Hunches
+
+This power may come from unconscious psychic sensitivity, the attention of a spiritual guardian of some kind, or an innate ability to move with the serendipitous forces of the universe. Roll to get irrational feelings of what you should do or hints at secrets you cannot otherwise know. Having this fringe power makes you very vulnerable to psychic manipulation.
+
+
+=== Lightning Strike
+
+Channels energy through nerves, muscle, skin, and bone, making them unnaturally fast and strong (faster, indeed, than the actual electrochemical nerve signals sent by the brain).
+
+Add your dice with this ability to attack rolls when striking with your bare hands, feet, or other natural implement of destruction.
+
+
+=== Mind Scan
+
+Called "`tuning in`" by its less traditional masters, this discipline involves sensitizing one's own mind to the constant psychic chatter put out by other sentient beings to the point that one can decode another's thoughts.
+
+When scanning for thoughts, the mind scanner can find thoughts within his dice roll in meters. If someone wants to see if someone is lurking in the closet before opening the door, he need only roll a 1, but scanning an apparently empty building is beyond all but the grandmasters of this discipline.
+
+To scan a mind for actual thoughts, a mind scanner must be able to see or otherwise sense the target. If the target is in sight, the range for the power becomes 2 meters times the roll. If the roll is high enough for the range, compare the mind scanner's roll to the target's. If the character beats the target's roll, he learns what that person is thinking. If the character rolls double the target's roll, he finds clear information, as well as any related memories or ideas.
+
+For example, an average scanner tries to scan someone across a bar for a computer password. The target is 7 meters away. A roll of 3 or lower means that contact is not even made. A roll of 4 or higher means contact is made, but the target gets a resistance roll (2 dice, unless he has some unusual traits).
+
+
+=== Pre-Reaction
+
+Channels energy backward in time to stimulate motor nerves previous to perceiving a danger.
+
+The character may roll to respond to something just before it happens, such as dropping to the ground just before an explosion goes off. If he would normally have a chance to respond to something, then he can add these dice to his normal roll. (E.g., if a car is hurtling toward him and he needs to jump out of the way, he would normally get to make a roll based on his reflexes or speed; he could add Pre-Reaction dice to the roll.) If he would not normally get a roll, then he can still use these dice, but only these dice. (E.g., a poisoned dart thrown from behind by a silent assassin would not normally allow a character to dodge it, but he could use these dice to do so.)
+
+One cannot pre-react to an event one would not notice. If someone points an invisible, intangible ray in a character's direction, he cannot prereact to it because his future self will not notice it and therefore cannot send energy back to his present self to protect him.
+
+=== Roaming Eyes
+
+Allows one to see other places or times. Each Eye Roamer can see either in the present at a distance or in the past but in the same location.
+
+[horizontal]
+Present, distant:: The Eye Roamer must have some connection to the place being observed, such as knowing someone there, having been there and checked it out, etc. The Eye Roamer can specify viewing the surroundings of a person or object, or he can view a certain area. Range is the roll times 100m (or more, if there is a very good connection to the person or place). Duration is the roll in rounds.
+
+Past, here:: The Eye Roamer can see into the past up to one hour times the roll. For very important or emotionally-laden events, especially if the Eye Roamer knows something about it, the distance into the path may increase to the roll in days, weeks, or even centuries.
+
+Other senses:: Some psychics send their ears (or even noses) the way Eye Roamers send their eyes.
+
+
+=== Sending
+
+Sending your thoughts to the minds of others. The character must know the recipient well or see him in order to Send. The recipient "`hears`" the thought as if it were spoken (but knows it's only "`in his head`"). The die roll for this power represents the number of minutes one can continue sending, and must be higher than the target's resistance roll (if the target chooses to resist). The die roll also determines range: the roll times 10 meters if the Sender does not know the target, or the roll in kilometers if the Sender knows the target well.
+
+
+=== Skin of Iron
+
+By developing an inflexible image of his own physical body, a character can conduct his energy so as to maintain this image in the face of injury. Blows of all kinds must overcome the physical resistance of the flesh as well as the paraphysical resistance offered by the energy.
+
+The total on the dice is subtracted from damage on each blow you take, like normal armor. The highest number among the dice equals the number of blows you can absorb before Skin of Iron wears off (with a maximum duration of 10 minutes). If you are unhappy with your roll, you may use more psychic dice and roll again, taking the new result only if it is higher.
+
+
+=== Telekinesis
+
+Moving, lifting, and manipulating objects at a distance. The number rolled equals the number of kilos that can be pushed along a surface, the distance in meters over which one can use the power, the number of seconds one can maintain the power. The object to be affected must be seen. The telekineticist can move the object about, spin it, or otherwise manipulate it. The telekineticist can also lift objects in the into air, up to 100g times his roll (or one-tenth the weight he can push).
+
+
+=== Telekinetic Punch
+
+Creates a burst of explosive force that can break, topple, or harm objects or people. The roll equals damage done and the distance over which the force can act. If used to break in a door or perform other feats of strength, the roll is equivalent to a normal strength roll.
+
+
+=== Telepathy
+
+Essentially a combination of Mind Scan and Sending, but weaker than either. The Telepath cannot scan for thoughts like a Mind Scanner can. He can read minds, but only at a range equal to the roll in meters. He can send thoughts, but the range is the roll times 5 meters (for people in sight) or times 500 meters (for out of sight, works with well-known friends and acquaintances only). Unlike the Sender, a Telepath can have a two-way conversation with a target, but only if the target wills to respond.

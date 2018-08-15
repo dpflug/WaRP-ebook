@@ -1,12 +1,11 @@
 image: asciidoctor/docker-asciidoctor
 
 stages:
-  - asciidoctor
+  - build
   - test
-  - calibre
 
 html:
-  stage: asciidoctor
+  stage: build
   script:
     - asciidoctor WaRP.adoc
   artifacts:
@@ -14,36 +13,31 @@ html:
       - WaRP.html
 
 pdf:
-  stage: asciidoctor
+  stage: build
   script:
     - asciidoctor-pdf WaRP.adoc
   artifacts:
     paths:
       - WaRP.pdf
 
-# Direct epub generation disabled until I adhere to the rules in the asciidoctor-epub3 docs:
-# https://github.com/asciidoctor/asciidoctor-epub3#structuring-your-manuscript
-#epub:
-#  stage: asciidoctor
-#  script:
-#    - asciidoctor-epub3 WaRP.adoc
-#  artifacts:
-#    paths:
-#      - WaRP.epub
-
-# I haven't seen a way to validate non-epub results
-#test_epub:
-#  stage: test
-#  script:
-#    - asciidoctor-epub3 -D output -a ebook-validate WaRP.adoc
-
-ebook:
-  stage: calibre
-  image: emmanuelrosa/kindlegen
+epub:
+  stage: build1
   script:
-    - kindlegen WaRP.html WaRP.mobi
+    - asciidoctor-epub3 WaRP.adoc
+  artifacts:
+    paths:
+      - WaRP.epub
+
+mobi:
+  stage: build
+  script:
+    - asciidoctor-epub3 -a ebook-format=kf8 WaRP.adoc
   artifacts:
     paths:
       - WaRP.mobi
-  dependencies:
-    - html
+
+# I haven't seen a way to validate non-epub results
+test_epub:
+  stage: test
+  script:
+    - asciidoctor-epub3 -D output -a ebook-validate WaRP.adoc
