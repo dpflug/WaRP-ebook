@@ -1,6 +1,8 @@
 [colophon]
 = colophon
 
+WaRP is the property of Atlas Games. I claim no rights over it; I just wanted to be able to read it on my Kindle.
+
 (C) John A. Nephew. Published under license by Trident, Inc. d/b/a Atlas Games
 
 Authors Jonathan Tweet with Robin D. Laws; Editor Michelle Nephew. WaRP System Logo, Copyright 2012 Trident, Inc. d/b/a Atlas Games; Designer Michelle Nephew. Format conversion by David Pflug.

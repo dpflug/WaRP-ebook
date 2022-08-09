@@ -6,15 +6,12 @@ ebooks:
     - asciidoctor WaRP.adoc
     - asciidoctor-pdf WaRP.adoc
     - asciidoctor-epub3 WaRP.adoc
-    - asciidoctor-epub3 -a ebook-compression=2 -a ebook-format=kf8 WaRP.adoc
   artifacts:
     paths:
       - WaRP.html
       - WaRP.pdf
-      - WaRP.mobi
       - WaRP.epub
 
-# I haven't seen a way to validate non-epub results
 test_epub:
   stage: test
   script:

@@ -1,6 +1,6 @@
 = WaRP System =
 Jonathan Tweet; Robin D. Laws
-:revnumber: 1.0.2
+:revnumber: 1.0.3
 :icons: font
 :toc: left
 :doctype: book
